@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>mete</title>
+  
+  
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://mete.dev/"/>
+  <updated>2019-03-19T22:41:19.353Z</updated>
+  <id>http://mete.dev/</id>
+  
+  <author>
+    <name>Mete</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Merhaba</title>
+    <link href="http://mete.dev/2019/03/19/hello-world/"/>
+    <id>http://mete.dev/2019/03/19/hello-world/</id>
+    <published>2019-03-18T23:00:00.000Z</published>
+    <updated>2019-03-19T22:41:19.353Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;Blog tutmayı uzun süredir bırakmıştım ve geri dönmeyi de neredeyse aynı süredir istiyordum. İş, üniversite ve özel hayattaki yoğun
+        
+      
+    
+    </summary>
+    
+      <category term="Diğer" scheme="http://mete.dev/categories/Diger/"/>
+    
+    
+  </entry>
+  
+</feed>
