@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://mete.dev/"/>
-  <updated>2019-03-19T22:41:19.353Z</updated>
+  <updated>2019-03-23T21:08:15.352Z</updated>
   <id>http://mete.dev/</id>
   
   <author>
@@ -17,9 +17,25 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>Eindhoven Philips Müzesi</title>
+    <link href="http://mete.dev/Eindhoven-Philips-Muzesi/"/>
+    <id>http://mete.dev/Eindhoven-Philips-Muzesi/</id>
+    <published>2019-03-23T20:55:09.000Z</published>
+    <updated>2019-03-23T21:08:15.352Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;Bugün Eindhoven’da bulunan Philips Müzesini gezdik. Müzede çoğunlukla duvardaki şirketin tarihi ile ilgili açıklamalar ve bu metinlerde geçen ürünlerden örnekler mevcut. Ben bu açıdan, bu kadar yazı okuyarak vakit geçirilen müzeleri sevmiyorum. Bu yazıları internette de bulmak mümkün. Müzede ilgi çekici bölümler de vardı, özellikler ışıklandırma sistemlerinin gelişimi ve bir ampül üreticisinin aynı teknoloji ile değişik sektörlere fayda sağlayacak ürünlerle gelişmesi ve genel bir teknoloji şirketine dönüşümü çok ilgimi çekti. &lt;/p&gt;
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
     <title>Merhaba</title>
-    <link href="http://mete.dev/2019/03/19/hello-world/"/>
-    <id>http://mete.dev/2019/03/19/hello-world/</id>
+    <link href="http://mete.dev/hello-world/"/>
+    <id>http://mete.dev/hello-world/</id>
     <published>2019-03-18T23:00:00.000Z</published>
     <updated>2019-03-19T22:41:19.353Z</updated>
     
