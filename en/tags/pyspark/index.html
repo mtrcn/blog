@@ -14,7 +14,7 @@
 <meta name="apple-mobile-web-app-status-bar-style" content="#f8f5ec">
 
 <link rel="alternate" href="/atom.xml" title="mete"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico?v=2.11.0">
-<link rel="canonical" href="http://mete.dev/">
+<link rel="canonical" href="http://mete.dev/tags/pyspark/">
 
 <link rel="stylesheet" type="text/css" href="/lib/fancybox/jquery.fancybox.css"><link rel="stylesheet" type="text/css" href="/lib/nprogress/nprogress.min.css">
 <link rel="stylesheet" type="text/css" href="/css/style.css?v=2.11.0">
@@ -31,7 +31,8 @@
   window.config = {"leancloud":{"app_id":null,"app_key":null},"toc":true,"fancybox":true,"pjax":true,"latex":false};
 </script>
 
-    <title>mete</title>
+    <title>pyspark · mete
+  </title>
   </head>
 
   <body><div id="mobile-navbar" class="mobile-navbar">
@@ -77,23 +78,30 @@
 
       <main id="main" class="main">
         <div class="content-wrapper">
-          <div id="content" class="content"><section id="posts" class="posts"><article class="post">
-    <header class="post-header">
-      <h1 class="post-title"><a class="post-link" href="/en/Partition-Parquet-File-by-Date/">Partition Parquet File by Date</a>
-        </h1>
-
-      <div class="post-meta">
-        <span class="post-time">
+          <div id="content" class="content"><section id="archive" class="archive"><div class="archive-title tag">
+          <h2 class="archive-name">pyspark</h2>
+        </div>
+      <div class="archive-post">
+        <span class="archive-post-time">
           2019-04-07
-        </span></div>
-    </header>
-
-    <div class="post-content"><p>The pyspark script below can split one single big parquet file into small parquet files based on <code>date</code> column. </p>
-<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">from</span> pyspark.sql.functions <span class="keyword">import</span> col, dayofmonth, month, year</span><br><span class="line"></span><br><span class="line">df = <span class="comment">#load data frame</span></span><br><span class="line"></span><br><span class="line">dt = col(<span class="string">"date"</span>).cast(<span class="string">"date"</span>)</span><br><span class="line">fname = [(year, <span class="string">"year"</span>), (month, <span class="string">"month"</span>), (dayofmonth, <span class="string">"day"</span>)]</span><br><span class="line">exprs = [col(<span class="string">"*"</span>)] + [f(dt).alias(name) <span class="keyword">for</span> f, name <span class="keyword">in</span> fname]</span><br><span class="line"></span><br><span class="line">(df.select(*exprs).write.partitionBy(*(name <span class="keyword">for</span> _, name <span class="keyword">in</span> fname)).mode(<span class="string">"overwrite"</span>).parquet(<span class="string">'output_location'</span>))</span><br></pre></td></tr></table></figure>
-<p>The output will be structured like <code>year=2019\month=04\day=01</code></p>
-
-        </div></article>
-        <nav class="pagination"></nav></section></div></div>
+          </span>
+        <span class="archive-post-title">
+          <a href="/en/Export-MS-SQL-tables-to-Parquet-Files/" class="archive-post-link">
+            Export MS SQL tables to Parquet Files
+          </a>
+        </span>
+      </div>
+    <div class="archive-post">
+        <span class="archive-post-time">
+          2019-04-07
+          </span>
+        <span class="archive-post-title">
+          <a href="/en/Partition-Parquet-File-by-Date/" class="archive-post-link">
+            Partition Parquet File by Date
+          </a>
+        </span>
+      </div>
+    </section><nav class="pagination"></nav></div></div>
       </main>
 
       <footer id="footer" class="footer"><div class="social-links"><a href="mailto:mepakdil@pm.me" class="iconfont icon-email" title="email"></a>

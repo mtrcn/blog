@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://mete.dev/"/>
-  <updated>2019-04-07T13:23:02.506Z</updated>
+  <updated>2019-04-07T13:37:45.280Z</updated>
   <id>http://mete.dev/</id>
   
   <author>
@@ -17,11 +17,29 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>Export MS SQL tables to Parquet Files</title>
+    <link href="http://mete.dev/en/Export-MS-SQL-tables-to-Parquet-Files/"/>
+    <id>http://mete.dev/en/Export-MS-SQL-tables-to-Parquet-Files/</id>
+    <published>2019-04-07T13:27:47.000Z</published>
+    <updated>2019-04-07T13:37:45.280Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;The following code exports MS SQL tables to Parquet files via PySpark. It can be used in tables that does not have indexed column with the numerical type (int, float, etc.). &lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="pyspark" scheme="http://mete.dev/tags/pyspark/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Partition Parquet File by Date</title>
     <link href="http://mete.dev/en/Partition-Parquet-File-by-Date/"/>
     <id>http://mete.dev/en/Partition-Parquet-File-by-Date/</id>
     <published>2019-04-07T12:57:51.000Z</published>
-    <updated>2019-04-07T13:23:02.506Z</updated>
+    <updated>2019-04-07T13:37:33.599Z</updated>
     
     <summary type="html">
     
@@ -36,6 +54,8 @@
     
     </summary>
     
+    
+      <category term="pyspark" scheme="http://mete.dev/tags/pyspark/"/>
     
   </entry>
   
