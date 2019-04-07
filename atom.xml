@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://mete.dev/"/>
-  <updated>2019-03-23T21:08:15.352Z</updated>
+  <updated>2019-04-07T13:23:02.506Z</updated>
   <id>http://mete.dev/</id>
   
   <author>
@@ -17,11 +17,34 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>Partition Parquet File by Date</title>
+    <link href="http://mete.dev/en/Partition-Parquet-File-by-Date/"/>
+    <id>http://mete.dev/en/Partition-Parquet-File-by-Date/</id>
+    <published>2019-04-07T12:57:51.000Z</published>
+    <updated>2019-04-07T13:23:02.506Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;The pyspark script below can split one single big parquet file into small parquet files based on &lt;code&gt;date&lt;/code&gt; column. &lt;/p&gt;
+&lt;figure
+        
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
     <title>Eindhoven Philips Müzesi</title>
-    <link href="http://mete.dev/Eindhoven-Philips-Muzesi/"/>
-    <id>http://mete.dev/Eindhoven-Philips-Muzesi/</id>
+    <link href="http://mete.dev/tr/Eindhoven-Philips-Muzesi/"/>
+    <id>http://mete.dev/tr/Eindhoven-Philips-Muzesi/</id>
     <published>2019-03-23T20:55:09.000Z</published>
-    <updated>2019-03-23T21:08:15.352Z</updated>
+    <updated>2019-04-04T20:01:03.922Z</updated>
     
     <summary type="html">
     
@@ -34,10 +57,10 @@
   
   <entry>
     <title>Merhaba</title>
-    <link href="http://mete.dev/hello-world/"/>
-    <id>http://mete.dev/hello-world/</id>
+    <link href="http://mete.dev/tr/hello-world/"/>
+    <id>http://mete.dev/tr/hello-world/</id>
     <published>2019-03-18T23:00:00.000Z</published>
-    <updated>2019-03-19T22:41:19.353Z</updated>
+    <updated>2019-04-04T20:01:10.095Z</updated>
     
     <summary type="html">
     
@@ -50,8 +73,6 @@
       
     
     </summary>
-    
-      <category term="Diğer" scheme="http://mete.dev/categories/Diger/"/>
     
     
   </entry>
