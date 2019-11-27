@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://mete.dev/"/>
-  <updated>2019-04-07T13:37:45.280Z</updated>
+  <updated>2019-11-27T00:10:43.707Z</updated>
   <id>http://mete.dev/</id>
   
   <author>
@@ -15,6 +15,36 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Kandilli Telegram Deprem Kanalı</title>
+    <link href="http://mete.dev/tr/Kandilli-Telegram-Deprem-Kanali/"/>
+    <id>http://mete.dev/tr/Kandilli-Telegram-Deprem-Kanali/</id>
+    <published>2019-11-26T23:42:35.000Z</published>
+    <updated>2019-11-27T00:10:43.707Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;İstanbul’da yaşanan son 5.6 büyüklüğündeki depremden sonra mobil telekom altyapısının çökmesi ve insanların birbiriyle anlık mesajlaşma
+        
+      
+    
+    </summary>
+    
+    
+      <category term="telegram" scheme="http://mete.dev/tags/telegram/"/>
+    
+      <category term="netcore" scheme="http://mete.dev/tags/netcore/"/>
+    
+      <category term="serverless" scheme="http://mete.dev/tags/serverless/"/>
+    
+      <category term="aws" scheme="http://mete.dev/tags/aws/"/>
+    
+  </entry>
   
   <entry>
     <title>Export MS SQL tables to Parquet Files</title>
