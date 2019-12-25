@@ -13,8 +13,8 @@
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="#f8f5ec">
 
-<meta name="description" content="A solution to make PowerBI Direct Query Reports parametrised in CI/CD pipeline"><meta name="keywords" content="powerbi, cicd, mete"><link rel="alternate" href="/atom.xml" title="mete"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico?v=2.11.0">
-<link rel="canonical" href="http://mete.dev/en/A-solution-to-make-PowerBI-Direct-Query-Reports-parametrised-in-CI-CD-pipeline/">
+<link rel="alternate" href="/atom.xml" title="mete"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico?v=2.11.0">
+<link rel="canonical" href="http://mete.dev/archives/2019/">
 
 <link rel="stylesheet" type="text/css" href="/lib/fancybox/jquery.fancybox.css"><link rel="stylesheet" type="text/css" href="/lib/nprogress/nprogress.min.css">
 <link rel="stylesheet" type="text/css" href="/css/style.css?v=2.11.0">
@@ -24,7 +24,8 @@
   window.config = {"toc":true,"fancybox":true,"pjax":true,"latex":false};
 </script>
 
-    <title>A solution to make PowerBI Direct Query Reports parametrised in CI/CD pipeline - mete</title>
+    <title>Archives - mete
+  </title>
   </head>
 
   <body><div id="mobile-navbar" class="mobile-navbar">
@@ -72,33 +73,75 @@
 
       <main id="main" class="main">
         <div class="content-wrapper">
-          <div id="content" class="content"><article class="post">
-    <header class="post-header">
-      <h1 class="post-title">A solution to make PowerBI Direct Query Reports parametrised in CI/CD pipeline
-        </h1>
-
-      <div class="post-meta">
-        <span class="post-time">
-          2019-12-15
-        </span></div>
-    </header>
-
-    <div class="post-content"><p>PowerBI REST APIs are very limited with restrictions for specific usages. One of the restriction is that you cannot update parameters on your PowerBI dataset via APIs if you’re using Direct Query. It is a problem if you want to have a master template PowerBI report and create reports based on the master for each different project with different parameters. </p>
-<a id="more"></a>
-<p>Assume that your report uses DirectQuery and API document says you cannot use <a href="https://docs.microsoft.com/en-us/rest/api/power-bi/datasets/updateparameters" target="_blank" rel="noopener">Update Parameters</a> endpoint. </p>
-<p>In this article, I presume that the report uses Direct Query with MS SQL Server.  The only thing I can change via APIs is the connection parameters via <a href="https://docs.microsoft.com/en-us/rest/api/power-bi/gateways/updatedatasource" target="_blank" rel="noopener">Update Datasource</a> endpoint. Luckily, SQL Server 2016 introduced with <a href="https://docs.microsoft.com/en-us/sql/relational-databases/security/row-level-security" target="_blank" rel="noopener">Row-Level Security</a> that allow us to limit user’s access to data at row level. </p>
-<p>We can create a master table to hold master data for each project, and the rest of the tables can make <strong>inner join</strong> with this table for Power BI reports. During the CI/CD process, we can call Update Datasource endpoint for the newly created dataset and update its user credential to limit its data for a specific project.</p>
-<p>It can be used as a solution until Microsft removes restrictions on Update Parameter’s endpoint for Direct Query based reports. This solution makes a bit complicated, but it works.</p>
-<p>Hope you find it useful. Leave your comments if you have better a solution, love to hear it. </p>
-
-      </div><footer class="post-footer">
-        <div class="post-tags">
-            <a href="/tags/powerbi/">powerbi</a>
-            <a href="/tags/cicd/">cicd</a>
-            </div>
-        
-        </footer>
-    </article></div></div>
+          <div id="content" class="content"><section id="archive" class="archive"><div class="archive-title">
+          <span class="archive-post-counter">
+            6 Posts In Total
+          </span>
+        </div>
+      <div class="collection-title">
+            <h2 class="archive-year">2019</h2>
+          </div>
+        <div class="archive-post">
+        <span class="archive-post-time">
+          12-15
+          </span>
+        <span class="archive-post-title">
+          <a href="/en/A-solution-to-make-PowerBI-Direct-Query-Reports-parametrised-in-CI-CD-pipeline/" class="archive-post-link">
+            A solution to make PowerBI Direct Query Reports parametrised in CI/CD pipeline
+          </a>
+        </span>
+      </div>
+    <div class="archive-post">
+        <span class="archive-post-time">
+          11-26
+          </span>
+        <span class="archive-post-title">
+          <a href="/tr/Kandilli-Telegram-Deprem-Kanali/" class="archive-post-link">
+            Kandilli Telegram Deprem Kanalı
+          </a>
+        </span>
+      </div>
+    <div class="archive-post">
+        <span class="archive-post-time">
+          04-07
+          </span>
+        <span class="archive-post-title">
+          <a href="/en/Export-MS-SQL-tables-to-Parquet-Files/" class="archive-post-link">
+            Export MS SQL tables to Parquet Files
+          </a>
+        </span>
+      </div>
+    <div class="archive-post">
+        <span class="archive-post-time">
+          04-07
+          </span>
+        <span class="archive-post-title">
+          <a href="/en/Partition-Parquet-File-by-Date/" class="archive-post-link">
+            Partition Parquet File by Date
+          </a>
+        </span>
+      </div>
+    <div class="archive-post">
+        <span class="archive-post-time">
+          03-23
+          </span>
+        <span class="archive-post-title">
+          <a href="/tr/Eindhoven-Philips-Muzesi/" class="archive-post-link">
+            Eindhoven Philips Müzesi
+          </a>
+        </span>
+      </div>
+    <div class="archive-post">
+        <span class="archive-post-time">
+          03-19
+          </span>
+        <span class="archive-post-title">
+          <a href="/tr/hello-world/" class="archive-post-link">
+            Merhaba
+          </a>
+        </span>
+      </div>
+    </section><nav class="pagination"></nav></div></div>
       </main>
 
       <footer id="footer" class="footer"><div class="social-links"><a href="mailto:mepakdil@gmail.com" class="iconfont icon-email" title="email"></a>
