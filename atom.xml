@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://mete.dev/"/>
-  <updated>2019-11-27T00:12:19.641Z</updated>
+  <updated>2019-12-23T21:06:35.199Z</updated>
   <id>http://mete.dev/</id>
   
   <author>
@@ -15,6 +15,26 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>A solution to make PowerBI Direct Query Reports parametrised in CI/CD pipeline</title>
+    <link href="http://mete.dev/en/A-solution-to-make-PowerBI-Direct-Query-Reports-parametrised-in-CI-CD-pipeline/"/>
+    <id>http://mete.dev/en/A-solution-to-make-PowerBI-Direct-Query-Reports-parametrised-in-CI-CD-pipeline/</id>
+    <published>2019-12-15T21:54:55.000Z</published>
+    <updated>2019-12-23T21:06:35.199Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;PowerBI REST APIs are very limited with restrictions for specific usages. One of the restriction is that you cannot update parameters on your PowerBI dataset via APIs if you’re using Direct Query. It is a problem if you want to have a master template PowerBI report and create reports based on the master for each different project with different parameters. &lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="powerbi" scheme="http://mete.dev/tags/powerbi/"/>
+    
+      <category term="cicd" scheme="http://mete.dev/tags/cicd/"/>
+    
+  </entry>
   
   <entry>
     <title>Kandilli Telegram Deprem Kanalı</title>
@@ -106,7 +126,7 @@
     <link href="http://mete.dev/tr/hello-world/"/>
     <id>http://mete.dev/tr/hello-world/</id>
     <published>2019-03-19T00:00:00.000Z</published>
-    <updated>2019-04-04T20:01:10.095Z</updated>
+    <updated>2019-12-23T21:06:35.200Z</updated>
     
     <summary type="html">
     
