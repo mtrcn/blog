@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>mete</title>
+    <link>http://mete.dev/</link>
+    <description>Recent content on mete</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sun, 15 Dec 2019 21:54:55 +0000</lastBuildDate>
+    
+	<atom:link href="http://mete.dev/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>A solution to make PowerBI Direct Query Reports parametrised in CI/CD pipeline</title>
+      <link>http://mete.dev/posts/a-solution-to-make-powerbi-direct-query-reports-parametrised-in-ci-cd-pipeline/</link>
+      <pubDate>Sun, 15 Dec 2019 21:54:55 +0000</pubDate>
+      
+      <guid>http://mete.dev/posts/a-solution-to-make-powerbi-direct-query-reports-parametrised-in-ci-cd-pipeline/</guid>
+      <description>PowerBI REST APIs are very limited with restrictions for specific usages. One of the restriction is that you cannot update parameters on your PowerBI dataset via APIs if you&amp;rsquo;re using Direct Query. It is a problem if you want to have a master template PowerBI report and create reports based on the master for each different project with different parameters.
+Assume that your report uses DirectQuery and API document says you cannot use Update Parameters endpoint.</description>
+    </item>
+    
+    <item>
+      <title>Kandilli Telegram Deprem Kanalı</title>
+      <link>http://mete.dev/turkish/posts/kandilli-telegram-deprem-kanali/</link>
+      <pubDate>Tue, 26 Nov 2019 23:42:35 +0000</pubDate>
+      
+      <guid>http://mete.dev/turkish/posts/kandilli-telegram-deprem-kanali/</guid>
+      <description>İstanbul&amp;rsquo;da yaşanan son 5.6 büyüklüğündeki depremden sonra mobil telekom altyapısının çökmesi ve insanların birbiriyle anlık mesajlaşma uygulamaları (Whatsapp, Telegram gibi) ile haberleşmesi aslında daha büyük bir depremde neler olacağının ve ne konularda eksik olduğumuzu görmemiz açısından hepimiz için öğretici ve aksiyon aldıran bir deprem oldu.
+İlk önce 24 Eylül&amp;rsquo;de meydana gelen 4.8 şiddetindeki deprem hepimizi tedirgin etti. Her ne kadar yurt dışında yaşasamda tüm yakınlarım Türkiye&amp;rsquo;de ve böyle bir anda ister istemez panik oluyorsunuz ve neler olduğuna daha yakından bakıp takip etmeye başlıyorsunuz.</description>
+    </item>
+    
+    <item>
+      <title>Export MS SQL tables to Parquet Files</title>
+      <link>http://mete.dev/posts/export-ms-sql-tables-to-parquet-files/</link>
+      <pubDate>Sun, 07 Apr 2019 15:27:47 +0000</pubDate>
+      
+      <guid>http://mete.dev/posts/export-ms-sql-tables-to-parquet-files/</guid>
+      <description>The following code exports MS SQL tables to Parquet files via PySpark. It can be used in tables that does not have indexed column with the numerical type (int, float, etc.).
+import sys from pyspark.sql.session import SparkSession def get_spark(jdbc_driver_path): return SparkSession.builder.master(&amp;#34;local[10]&amp;#34;).config(&amp;#34;spark.driver.extraClassPath&amp;#34;, jdbc_driver_path).getOrCreate() def get_sql_dataframe(host, database_name, table_name, order_by, upperBound, partition_num): return spark.read.format(&amp;#34;jdbc&amp;#34;)\ .option(&amp;#34;url&amp;#34;, &amp;#34;jdbc:sqlserver://{host};databasename={database_name};IntegratedSecurity=true&amp;#34;.format(host=host, database_name=database_name))\ .option(&amp;#34;dbtable&amp;#34;, &amp;#34;(SELECT ROW_NUMBER() OVER (ORDER BY {order_by}) AS row_num, * FROM {table_name}) as tmp&amp;#34;.format(order_by=order_by, table_name=table_name))\ .option(&amp;#34;partitionColumn&amp;#34;, &amp;#34;row_num&amp;#34;)\ .</description>
+    </item>
+    
+    <item>
+      <title>Partition Parquet File by Date</title>
+      <link>http://mete.dev/posts/partition-parquet-file-by-date/</link>
+      <pubDate>Sun, 07 Apr 2019 14:57:51 +0000</pubDate>
+      
+      <guid>http://mete.dev/posts/partition-parquet-file-by-date/</guid>
+      <description>The pyspark script below can split one single big parquet file into small parquet files based on date column.
+from pyspark.sql.functions import col, dayofmonth, month, year df = #load data frame dt = col(&amp;#34;date&amp;#34;).cast(&amp;#34;date&amp;#34;) fname = [(year, &amp;#34;year&amp;#34;), (month, &amp;#34;month&amp;#34;), (dayofmonth, &amp;#34;day&amp;#34;)] exprs = [col(&amp;#34;*&amp;#34;)] + [f(dt).alias(name) for f, name in fname] (df.select(*exprs).write.partitionBy(*(name for _, name in fname)).mode(&amp;#34;overwrite&amp;#34;).parquet(&amp;#39;output_location&amp;#39;)) The output will be structured like year=2019\month=04\day=01</description>
+    </item>
+    
+    <item>
+      <title>Eindhoven Philips Müzesi</title>
+      <link>http://mete.dev/turkish/posts/eindhoven-philips-muzesi/</link>
+      <pubDate>Sat, 23 Mar 2019 21:55:09 +0000</pubDate>
+      
+      <guid>http://mete.dev/turkish/posts/eindhoven-philips-muzesi/</guid>
+      <description>Bugün Eindhoven&amp;rsquo;da bulunan Philips Müzesini gezdik. Müzede çoğunlukla duvardaki şirketin tarihi ile ilgili açıklamalar ve bu metinlerde geçen ürünlerden örnekler mevcut. Ben bu açıdan, bu kadar yazı okuyarak vakit geçirilen müzeleri sevmiyorum. Bu yazıları internette de bulmak mümkün. Müzede ilgi çekici bölümler de vardı, özellikler ışıklandırma sistemlerinin gelişimi ve bir ampül üreticisinin aynı teknoloji ile değişik sektörlere fayda sağlayacak ürünlerle gelişmesi ve genel bir teknoloji şirketine dönüşümü çok ilgimi çekti.</description>
+    </item>
+    
+    <item>
+      <title>Merhaba</title>
+      <link>http://mete.dev/turkish/posts/hello-world/</link>
+      <pubDate>Tue, 19 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://mete.dev/turkish/posts/hello-world/</guid>
+      <description>Blog tutmayı uzun süredir bırakmıştım ve geri dönmeyi de neredeyse aynı süredir istiyordum. İş, üniversite ve özel hayattaki yoğun gündem beni ancak bugün bu isteğime ulaşmamı sağladı.</description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>http://mete.dev/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://mete.dev/about/</guid>
+      <description>About Blog I&amp;rsquo;m willing to share followings in this blog;
+ solutions for challanges I come up with new technologies that I recently discovered my review and comments about other blog posts / articles  About Author My name is Mete. I have been software developer for a long time. In fact I had a very popular blog website that I couldn&amp;rsquo;t continue on writing, and, sadly, I have lost its archive.</description>
+    </item>
+    
+    <item>
+      <title>Hakkında</title>
+      <link>http://mete.dev/turkish/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://mete.dev/turkish/about/</guid>
+      <description>Blog Hakkında Bu blogda;
+ karşıma çıkan problemlere bulduğum çözümleri keşfettiğim yeni teknik konuları bulduğum güzel diğer blog yazılarını ve yazı hakkındaki yorumlarımı  paylaşmayı düşünüyorum.
+Yazar Hakkında Adım Mete. Çok uzun süredir yazılım geliştirme ile uğraşıyorum. Çok eskiden bir blog sitem de vardı ancak devamını getiremedim. Maalesef arşivi de kaybetmişim. Yurt dışında yaşıyorum ve çalışıyorum. LinkedIn adresimden öz geçmişime ulaşmanız mümkün, başka ne diyebilirim :)</description>
+    </item>
+    
+  </channel>
+</rss>

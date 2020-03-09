@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Turkishes on mete</title>
+    <link>http://mete.dev/turkish/</link>
+    <description>Recent content in Turkishes on mete</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Tue, 26 Nov 2019 23:42:35 +0000</lastBuildDate>
+    
+	<atom:link href="http://mete.dev/turkish/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Kandilli Telegram Deprem Kanalı</title>
+      <link>http://mete.dev/turkish/posts/kandilli-telegram-deprem-kanali/</link>
+      <pubDate>Tue, 26 Nov 2019 23:42:35 +0000</pubDate>
+      
+      <guid>http://mete.dev/turkish/posts/kandilli-telegram-deprem-kanali/</guid>
+      <description>İstanbul&amp;rsquo;da yaşanan son 5.6 büyüklüğündeki depremden sonra mobil telekom altyapısının çökmesi ve insanların birbiriyle anlık mesajlaşma uygulamaları (Whatsapp, Telegram gibi) ile haberleşmesi aslında daha büyük bir depremde neler olacağının ve ne konularda eksik olduğumuzu görmemiz açısından hepimiz için öğretici ve aksiyon aldıran bir deprem oldu.
+İlk önce 24 Eylül&amp;rsquo;de meydana gelen 4.8 şiddetindeki deprem hepimizi tedirgin etti. Her ne kadar yurt dışında yaşasamda tüm yakınlarım Türkiye&amp;rsquo;de ve böyle bir anda ister istemez panik oluyorsunuz ve neler olduğuna daha yakından bakıp takip etmeye başlıyorsunuz.</description>
+    </item>
+    
+    <item>
+      <title>Eindhoven Philips Müzesi</title>
+      <link>http://mete.dev/turkish/posts/eindhoven-philips-muzesi/</link>
+      <pubDate>Sat, 23 Mar 2019 21:55:09 +0000</pubDate>
+      
+      <guid>http://mete.dev/turkish/posts/eindhoven-philips-muzesi/</guid>
+      <description>Bugün Eindhoven&amp;rsquo;da bulunan Philips Müzesini gezdik. Müzede çoğunlukla duvardaki şirketin tarihi ile ilgili açıklamalar ve bu metinlerde geçen ürünlerden örnekler mevcut. Ben bu açıdan, bu kadar yazı okuyarak vakit geçirilen müzeleri sevmiyorum. Bu yazıları internette de bulmak mümkün. Müzede ilgi çekici bölümler de vardı, özellikler ışıklandırma sistemlerinin gelişimi ve bir ampül üreticisinin aynı teknoloji ile değişik sektörlere fayda sağlayacak ürünlerle gelişmesi ve genel bir teknoloji şirketine dönüşümü çok ilgimi çekti.</description>
+    </item>
+    
+    <item>
+      <title>Merhaba</title>
+      <link>http://mete.dev/turkish/posts/hello-world/</link>
+      <pubDate>Tue, 19 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://mete.dev/turkish/posts/hello-world/</guid>
+      <description>Blog tutmayı uzun süredir bırakmıştım ve geri dönmeyi de neredeyse aynı süredir istiyordum. İş, üniversite ve özel hayattaki yoğun gündem beni ancak bugün bu isteğime ulaşmamı sağladı.</description>
+    </item>
+    
+    <item>
+      <title>Hakkında</title>
+      <link>http://mete.dev/turkish/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://mete.dev/turkish/about/</guid>
+      <description>Blog Hakkında Bu blogda;
+ karşıma çıkan problemlere bulduğum çözümleri keşfettiğim yeni teknik konuları bulduğum güzel diğer blog yazılarını ve yazı hakkındaki yorumlarımı  paylaşmayı düşünüyorum.
+Yazar Hakkında Adım Mete. Çok uzun süredir yazılım geliştirme ile uğraşıyorum. Çok eskiden bir blog sitem de vardı ancak devamını getiremedim. Maalesef arşivi de kaybetmişim. Yurt dışında yaşıyorum ve çalışıyorum. LinkedIn adresimden öz geçmişime ulaşmanız mümkün, başka ne diyebilirim :)</description>
+    </item>
+    
+  </channel>
+</rss>

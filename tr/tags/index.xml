@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on mete</title>
+    <link>http://mete.dev/tr/tags/</link>
+    <description>Recent content in Tags on mete</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Tue, 26 Nov 2019 23:42:35 +0000</lastBuildDate>
+    
+	<atom:link href="http://mete.dev/tr/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>aws</title>
+      <link>http://mete.dev/tr/tags/aws/</link>
+      <pubDate>Tue, 26 Nov 2019 23:42:35 +0000</pubDate>
+      
+      <guid>http://mete.dev/tr/tags/aws/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>netcore</title>
+      <link>http://mete.dev/tr/tags/netcore/</link>
+      <pubDate>Tue, 26 Nov 2019 23:42:35 +0000</pubDate>
+      
+      <guid>http://mete.dev/tr/tags/netcore/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>serverless</title>
+      <link>http://mete.dev/tr/tags/serverless/</link>
+      <pubDate>Tue, 26 Nov 2019 23:42:35 +0000</pubDate>
+      
+      <guid>http://mete.dev/tr/tags/serverless/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>telegram</title>
+      <link>http://mete.dev/tr/tags/telegram/</link>
+      <pubDate>Tue, 26 Nov 2019 23:42:35 +0000</pubDate>
+      
+      <guid>http://mete.dev/tr/tags/telegram/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

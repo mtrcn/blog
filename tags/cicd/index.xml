@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>cicd on mete</title>
+    <link>http://mete.dev/tags/cicd/</link>
+    <description>Recent content in cicd on mete</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sun, 15 Dec 2019 21:54:55 +0000</lastBuildDate>
+    
+	<atom:link href="http://mete.dev/tags/cicd/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>A solution to make PowerBI Direct Query Reports parametrised in CI/CD pipeline</title>
+      <link>http://mete.dev/posts/a-solution-to-make-powerbi-direct-query-reports-parametrised-in-ci-cd-pipeline/</link>
+      <pubDate>Sun, 15 Dec 2019 21:54:55 +0000</pubDate>
+      
+      <guid>http://mete.dev/posts/a-solution-to-make-powerbi-direct-query-reports-parametrised-in-ci-cd-pipeline/</guid>
+      <description>PowerBI REST APIs are very limited with restrictions for specific usages. One of the restriction is that you cannot update parameters on your PowerBI dataset via APIs if you&amp;rsquo;re using Direct Query. It is a problem if you want to have a master template PowerBI report and create reports based on the master for each different project with different parameters.
+Assume that your report uses DirectQuery and API document says you cannot use Update Parameters endpoint.</description>
+    </item>
+    
+  </channel>
+</rss>

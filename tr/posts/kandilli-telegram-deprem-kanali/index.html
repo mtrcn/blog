@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="tr">
+    <head>
+        <meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="author" content="Mete Ercan Pakdil ">
+<meta name="description" content="İstanbul&amp;rsquo;da yaşanan son 5.6 büyüklüğündeki depremden sonra mobil telekom altyapısının çökmesi ve insanların birbiriyle anlık mesajlaşma uygulamaları (Whatsapp, Telegram gibi) ile haberleşmesi aslında daha büyük bir depremde neler olacağının ve ne konularda eksik olduğumuzu görmemiz açısından hepimiz için öğretici ve aksiyon aldıran bir deprem oldu.
+İlk önce 24 Eylül&amp;rsquo;de meydana gelen 4.8 şiddetindeki deprem hepimizi tedirgin etti. Her ne kadar yurt dışında yaşasamda tüm yakınlarım Türkiye&amp;rsquo;de ve böyle bir anda ister istemez panik oluyorsunuz ve neler olduğuna daha yakından bakıp takip etmeye başlıyorsunuz." />
+<meta name="keywords" content=", telegram, netcore, serverless, aws" />
+<meta name="robots" content="noodp" />
+<meta name="theme-color" content="" />
+<link rel="canonical" href="http://mete.dev/tr/posts/kandilli-telegram-deprem-kanali/" />
+
+
+    <title>
+        
+            Kandilli Telegram Deprem Kanalı :: mete 
+        
+    </title>
+
+
+
+<link href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.2.1/css/flag-icon.min.css" rel="stylesheet"
+    type="text/css">
+
+
+
+<link rel="stylesheet" href="/main.min.efd541e81dbc537f94a9949060bffbbc2bd2ca7003122eb683392ab5f227278c.css">
+
+
+
+
+<meta itemprop="name" content="Kandilli Telegram Deprem Kanalı">
+<meta itemprop="description" content="İstanbul&rsquo;da yaşanan son 5.6 büyüklüğündeki depremden sonra mobil telekom altyapısının çökmesi ve insanların birbiriyle anlık mesajlaşma uygulamaları (Whatsapp, Telegram gibi) ile haberleşmesi aslında daha büyük bir depremde neler olacağının ve ne konularda eksik olduğumuzu görmemiz açısından hepimiz için öğretici ve aksiyon aldıran bir deprem oldu.
+İlk önce 24 Eylül&rsquo;de meydana gelen 4.8 şiddetindeki deprem hepimizi tedirgin etti. Her ne kadar yurt dışında yaşasamda tüm yakınlarım Türkiye&rsquo;de ve böyle bir anda ister istemez panik oluyorsunuz ve neler olduğuna daha yakından bakıp takip etmeye başlıyorsunuz.">
+<meta itemprop="datePublished" content="2019-11-26T23:42:35&#43;00:00" />
+<meta itemprop="dateModified" content="2019-11-26T23:42:35&#43;00:00" />
+<meta itemprop="wordCount" content="304">
+
+
+
+<meta itemprop="keywords" content="telegram,netcore,serverless,aws," /><meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Kandilli Telegram Deprem Kanalı"/>
+<meta name="twitter:description" content="İstanbul&rsquo;da yaşanan son 5.6 büyüklüğündeki depremden sonra mobil telekom altyapısının çökmesi ve insanların birbiriyle anlık mesajlaşma uygulamaları (Whatsapp, Telegram gibi) ile haberleşmesi aslında daha büyük bir depremde neler olacağının ve ne konularda eksik olduğumuzu görmemiz açısından hepimiz için öğretici ve aksiyon aldıran bir deprem oldu.
+İlk önce 24 Eylül&rsquo;de meydana gelen 4.8 şiddetindeki deprem hepimizi tedirgin etti. Her ne kadar yurt dışında yaşasamda tüm yakınlarım Türkiye&rsquo;de ve böyle bir anda ister istemez panik oluyorsunuz ve neler olduğuna daha yakından bakıp takip etmeye başlıyorsunuz."/>
+
+
+
+
+
+    <meta property="article:published_time" content="2019-11-26 23:42:35 &#43;0000 UTC" />
+
+
+
+
+
+
+
+
+    </head>
+
+    <body class="dark-theme">
+        <div class="container">
+            <header class="header">
+    <span class="header__inner">
+        <a href="/tr/" style="text-decoration: none;">
+    <div class="logo">
+        
+            <span class="logo__mark">></span>
+            <span class="logo__text">&gt; $ /dev/mete</span>
+            <span class="logo__cursor" style=
+                  "
+                   background-color:#bada55;
+                   ">
+            </span>
+        
+    </div>
+</a>
+
+
+        <span class="header__right">
+            
+                <nav class="menu">
+    <ul class="menu__inner"><li><a href="http://mete.dev/tr/posts">Blog</a></li><li><a href="http://mete.dev/tr/about">Hakkında</a></li>
+        
+            <li><a class="nav item" href="/en" hreflang="en" lang="en">English</a></li>
+            
+    </ul>
+</nav>
+
+                <span class="menu-trigger">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                        <path d="M0 0h24v24H0z" fill="none"/>
+                        <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/>
+                    </svg>
+                </span>
+            
+
+            <span class="theme-toggle unselectable"><svg class="theme-toggler" width="24" height="24" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M22 41C32.4934 41 41 32.4934 41 22C41 11.5066 32.4934 3 22
+  3C11.5066 3 3 11.5066 3 22C3 32.4934 11.5066 41 22 41ZM7 22C7
+  13.7157 13.7157 7 22 7V37C13.7157 37 7 30.2843 7 22Z"/>
+</svg>
+</span>
+        </span>
+    </span>
+</header>
+
+
+            <div class="content">
+                
+    <main class="post">
+
+        <div class="post-info">
+            <p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-clock"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>2 dakika
+
+            
+
+            </p>
+        </div>
+
+        <article>
+            <h1 class="post-title">
+                <a href="http://mete.dev/tr/posts/kandilli-telegram-deprem-kanali/">Kandilli Telegram Deprem Kanalı</a>                
+            </h1>
+
+            <span><a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="Creative Commons Licence" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/4.0/88x31.png" /></a></span>
+
+            
+
+            <div class="post-content">
+                <p>İstanbul&rsquo;da yaşanan son 5.6 büyüklüğündeki depremden sonra mobil telekom altyapısının çökmesi ve insanların birbiriyle anlık mesajlaşma uygulamaları (Whatsapp, Telegram gibi) ile haberleşmesi aslında daha büyük bir depremde neler olacağının ve ne konularda eksik olduğumuzu görmemiz açısından hepimiz için öğretici ve aksiyon aldıran bir deprem oldu.</p>
+<p>İlk önce 24 Eylül&rsquo;de meydana gelen 4.8 şiddetindeki deprem hepimizi tedirgin etti. Her ne kadar yurt dışında yaşasamda tüm yakınlarım Türkiye&rsquo;de ve böyle bir anda ister istemez panik oluyorsunuz ve neler olduğuna daha yakından bakıp takip etmeye başlıyorsunuz. Bir yandan çalışırken bir yandan da Kandilli&rsquo;nin yayınladığı son depremler sayfasını takip etmeye başladım. Aklımda bu deprem beklenen büyük depremin habercisi olabilir mi sorusuna cevap aramak oldu. İlginç bir şekilde 4.8&rsquo;lik depremden sonra depremlerin büyüklüğü sönümleyerek devam etmek yerine benzeri büyüklükte ve daha küçük bir çok deprem olmaya devam ediyordu.</p>
+<p>Herkese bir anormallik olduğunu anlatmaya çalışıyordum ama tabi depremi kimsenin önceden bilemeyeceği bilimsel gerçeği insanların dikkatini çekmiyordu. 10 Ekim&rsquo;de şu tweet&rsquo;i attım;</p>
+<!-- raw HTML omitted -->
+<p>{% blockquote @mtrcn <a href="https://twitter.com/mTRcn/status/1177161644285333504">https://twitter.com/mTRcn/status/1177161644285333504</a> %}
+Turkiye&rsquo;nin su anda en buyuk beka sorunu yaklasan Istanbul depremidir. Bunun yanindaki tum guncel sorunlar ertelenebilir veya idare edilebilir.
+{% endblockquote %}</p>
+<p>Bu tweet&rsquo;i attıktan hemen sonra 5.8 şiddetinde deprem oldu. Büyük bir rastlantıydı, ama sadece 4.8&rsquo;lik depremden sonrasını takip ederek yerin hareketlerinin dinmemesinden şüphelenip böyle tweet atmıştım.</p>
+<p>Deprem sonrası mobil şebeke çöktü, hatta kullandığım AFAD'ın mobil uygulaması da çalışmaz hale geldi.</p>
+<p>Hikaye kısmı bu kadar.</p>
+<p>Eğer herkes bu depremleri kolayca edebilse ve bunu kendini son depremde ispat etmiş anlık mesajlaşma uygulaması üzerinden yapsa nasıl olur diyip, Telegram API&rsquo;larına göz attım (maalesef Whatsapp'ın böyle bir API hizmetini bulamadım).  Daha sonra Kandilli son depremlerinin listelendiği sayfayı çekip bir Telegram kanalına mesaj olarak atma kısmını tasarladım. Bunun için AWS Serverless ve .Net Core teknolojilerini kullandım.</p>
+<p>Tüm çalışmayı Github üzerinde yayınladım. <a href="https://github.com/Geomates/KandilliEarthquakeNotifier">https://github.com/Geomates/KandilliEarthquakeNotifier</a></p>
+<p>Uygulama şu anda kendi AWS hesabım üzerinde aktif olarak çalışıyor ve depremleri https://t.me/kandillisondepremler kanalına gönderiyor.</p>
+
+            </div>
+        </article>
+        <hr />
+
+        <span style="display:flex;align-items:center;justify-content: center;"><img style="vertical-align:middle" src="https://cdn.buymeacoffee.com/buttons/bmc-new-btn-logo.svg" alt="Kahve ısmarla"><a style="margin-left: 4px;" target="_blank" href="https://www.buymeacoffee.com/mete">Kahve ısmarla</a></span>
+
+        <hr />
+
+        <div class="post-info">
+                <p>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-tag meta-icon"><path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7" y2="7"></line></svg><span class="tag"><a href="http://mete.dev/tr/tags/telegram">telegram</a></span><span class="tag"><a href="http://mete.dev/tr/tags/netcore">netcore</a></span><span class="tag"><a href="http://mete.dev/tr/tags/serverless">serverless</a></span><span class="tag"><a href="http://mete.dev/tr/tags/aws">aws</a></span>
+                </p>
+
+            <p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-file-text"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg>304 Kelime</p>
+
+            <p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-calendar"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>2019-11-26 23:42 &#43;0000</p>            
+        </div>        
+
+        
+            <div class="pagination">
+                <div class="pagination__title">
+                    <span class="pagination__title-h"></span>
+                    <hr />
+                </div>
+
+                <div class="pagination__buttons">
+                    
+
+                    
+                        <span class="button next">
+                            <a href="http://mete.dev/tr/posts/eindhoven-philips-muzesi/">
+                                <span class="button__text">Eindhoven Philips Müzesi</span>
+                                <span class="button__icon">→</span>
+                            </a>
+                        </span>
+                    
+                </div>
+            </div>
+        
+
+        
+    </main>
+
+            </div>
+
+            
+                <footer class="footer">
+    <div class="footer__inner">
+        <div class="footer__content">            
+            <span>RSS <a href="http://mete.dev/tr/posts/index.xml" target="_blank" title="rss"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="18" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-rss"><path d="M4 11a9 9 0 0 1 9 9"></path><path d="M4 4a16 16 0 0 1 16 16"></path><circle cx="5" cy="19" r="1"></circle></svg></a></span>
+        </div>
+    </div>
+    <div class="footer__inner">
+        <div class="footer__content">
+            <span><a href="http://gohugo.io">Engine</a></span>
+            <span><a href="https://github.com/rhazdon">Theme</a></span>
+        </div>
+    </div>    
+</footer>
+
+            
+        </div>
+
+        
+
+
+
+
+<script type="text/javascript" src="/bundle.min.2d5469329143160ae2456a69c3c76dc2d0a3b212b46afe291a51bd68650ed6f8697e001dab54f1c272c77ce08092a8c55e5bb4314e0ee334aab4b927ec896638.js" integrity="sha512-LVRpMpFDFgriRWppw8dtwtCjshK0av4pGlG9aGUO1vhpfgAdq1TxwnLHfOCAkqjFXlu0MU4O4zSqtLkn7IlmOA=="></script>
+
+
+
+    </body>
+</html>

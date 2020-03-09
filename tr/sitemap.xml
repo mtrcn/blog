@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>http://mete.dev/tr/tags/aws/</loc>
+    <lastmod>2019-11-26T23:42:35+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://mete.dev/tags/aws/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="tr"
+                href="http://mete.dev/tr/tags/aws/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://mete.dev/tr/posts/kandilli-telegram-deprem-kanali/</loc>
+    <lastmod>2019-11-26T23:42:35+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://mete.dev/tr/</loc>
+    <lastmod>2019-11-26T23:42:35+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://mete.dev/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="tr"
+                href="http://mete.dev/tr/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://mete.dev/tr/tags/netcore/</loc>
+    <lastmod>2019-11-26T23:42:35+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://mete.dev/tags/netcore/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="tr"
+                href="http://mete.dev/tr/tags/netcore/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://mete.dev/tr/posts/</loc>
+    <lastmod>2019-11-26T23:42:35+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://mete.dev/posts/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="tr"
+                href="http://mete.dev/tr/posts/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://mete.dev/tr/tags/serverless/</loc>
+    <lastmod>2019-11-26T23:42:35+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://mete.dev/tags/serverless/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="tr"
+                href="http://mete.dev/tr/tags/serverless/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://mete.dev/tr/tags/</loc>
+    <lastmod>2019-11-26T23:42:35+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://mete.dev/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="tr"
+                href="http://mete.dev/tr/tags/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://mete.dev/tr/tags/telegram/</loc>
+    <lastmod>2019-11-26T23:42:35+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://mete.dev/tags/telegram/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="tr"
+                href="http://mete.dev/tr/tags/telegram/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://mete.dev/tr/posts/eindhoven-philips-muzesi/</loc>
+    <lastmod>2019-03-23T21:55:09+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://mete.dev/tr/posts/hello-world/</loc>
+    <lastmod>2019-03-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://mete.dev/tr/categories/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://mete.dev/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="tr"
+                href="http://mete.dev/tr/categories/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://mete.dev/tr/about/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://mete.dev/about/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="tr"
+                href="http://mete.dev/tr/about/"
+                />
+  </url>
+  
+</urlset>

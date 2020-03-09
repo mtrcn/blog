@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>serverless on mete</title>
+    <link>http://mete.dev/tags/serverless/</link>
+    <description>Recent content in serverless on mete</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Tue, 26 Nov 2019 23:42:35 +0000</lastBuildDate>
+    
+	<atom:link href="http://mete.dev/tags/serverless/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Kandilli Telegram Deprem Kanalı</title>
+      <link>http://mete.dev/turkish/posts/kandilli-telegram-deprem-kanali/</link>
+      <pubDate>Tue, 26 Nov 2019 23:42:35 +0000</pubDate>
+      
+      <guid>http://mete.dev/turkish/posts/kandilli-telegram-deprem-kanali/</guid>
+      <description>İstanbul&amp;rsquo;da yaşanan son 5.6 büyüklüğündeki depremden sonra mobil telekom altyapısının çökmesi ve insanların birbiriyle anlık mesajlaşma uygulamaları (Whatsapp, Telegram gibi) ile haberleşmesi aslında daha büyük bir depremde neler olacağının ve ne konularda eksik olduğumuzu görmemiz açısından hepimiz için öğretici ve aksiyon aldıran bir deprem oldu.
+İlk önce 24 Eylül&amp;rsquo;de meydana gelen 4.8 şiddetindeki deprem hepimizi tedirgin etti. Her ne kadar yurt dışında yaşasamda tüm yakınlarım Türkiye&amp;rsquo;de ve böyle bir anda ister istemez panik oluyorsunuz ve neler olduğuna daha yakından bakıp takip etmeye başlıyorsunuz.</description>
+    </item>
+    
+  </channel>
+</rss>

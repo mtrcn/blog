@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>http://mete.dev/posts/a-solution-to-make-powerbi-direct-query-reports-parametrised-in-ci-cd-pipeline/</loc>
+    <lastmod>2019-12-15T21:54:55+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://mete.dev/tags/cicd/</loc>
+    <lastmod>2019-12-15T21:54:55+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://mete.dev/</loc>
+    <lastmod>2019-12-15T21:54:55+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="tr"
+                href="http://mete.dev/tr/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://mete.dev/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://mete.dev/posts/</loc>
+    <lastmod>2019-12-15T21:54:55+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="tr"
+                href="http://mete.dev/tr/posts/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://mete.dev/posts/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://mete.dev/tags/powerbi/</loc>
+    <lastmod>2019-12-15T21:54:55+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://mete.dev/tags/</loc>
+    <lastmod>2019-12-15T21:54:55+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="tr"
+                href="http://mete.dev/tr/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://mete.dev/tags/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://mete.dev/tags/aws/</loc>
+    <lastmod>2019-11-26T23:42:35+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="tr"
+                href="http://mete.dev/tr/tags/aws/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://mete.dev/tags/aws/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://mete.dev/turkish/posts/kandilli-telegram-deprem-kanali/</loc>
+    <lastmod>2019-11-26T23:42:35+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://mete.dev/tags/netcore/</loc>
+    <lastmod>2019-11-26T23:42:35+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="tr"
+                href="http://mete.dev/tr/tags/netcore/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://mete.dev/tags/netcore/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://mete.dev/tags/serverless/</loc>
+    <lastmod>2019-11-26T23:42:35+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="tr"
+                href="http://mete.dev/tr/tags/serverless/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://mete.dev/tags/serverless/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://mete.dev/tags/telegram/</loc>
+    <lastmod>2019-11-26T23:42:35+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="tr"
+                href="http://mete.dev/tr/tags/telegram/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://mete.dev/tags/telegram/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://mete.dev/turkish/</loc>
+    <lastmod>2019-11-26T23:42:35+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://mete.dev/posts/export-ms-sql-tables-to-parquet-files/</loc>
+    <lastmod>2019-04-07T15:27:47+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://mete.dev/tags/pyspark/</loc>
+    <lastmod>2019-04-07T15:27:47+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://mete.dev/posts/partition-parquet-file-by-date/</loc>
+    <lastmod>2019-04-07T14:57:51+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://mete.dev/turkish/posts/eindhoven-philips-muzesi/</loc>
+    <lastmod>2019-03-23T21:55:09+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://mete.dev/turkish/posts/hello-world/</loc>
+    <lastmod>2019-03-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://mete.dev/about/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="tr"
+                href="http://mete.dev/tr/about/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://mete.dev/about/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://mete.dev/categories/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="tr"
+                href="http://mete.dev/tr/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://mete.dev/categories/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://mete.dev/turkish/about/</loc>
+  </url>
+  
+</urlset>

@@ -1,0 +1,65 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Posts on mete</title>
+        <link>http://mete.dev/tr/posts/</link>
+        <description>Recent content in Posts on mete</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <lastBuildDate>Tue, 26 Nov 2019 23:42:35 +0000</lastBuildDate>
+        <atom:link href="http://mete.dev/tr/posts/index.xml" rel="self" type="application/rss+xml" />
+        
+        <item>
+            <title>Kandilli Telegram Deprem Kanalı</title>
+            <link>http://mete.dev/tr/posts/kandilli-telegram-deprem-kanali/</link>
+            <pubDate>Tue, 26 Nov 2019 23:42:35 +0000</pubDate>
+            
+            <guid>http://mete.dev/tr/posts/kandilli-telegram-deprem-kanali/</guid>
+            <description>İstanbul&amp;rsquo;da yaşanan son 5.6 büyüklüğündeki depremden sonra mobil telekom altyapısının çökmesi ve insanların birbiriyle anlık mesajlaşma uygulamaları (Whatsapp, Telegram gibi) ile haberleşmesi aslında daha büyük bir depremde neler olacağının ve ne konularda eksik olduğumuzu görmemiz açısından hepimiz için öğretici ve aksiyon aldıran bir deprem oldu.
+İlk önce 24 Eylül&amp;rsquo;de meydana gelen 4.8 şiddetindeki deprem hepimizi tedirgin etti. Her ne kadar yurt dışında yaşasamda tüm yakınlarım Türkiye&amp;rsquo;de ve böyle bir anda ister istemez panik oluyorsunuz ve neler olduğuna daha yakından bakıp takip etmeye başlıyorsunuz.</description>
+            <content type="html"><![CDATA[<p>İstanbul&rsquo;da yaşanan son 5.6 büyüklüğündeki depremden sonra mobil telekom altyapısının çökmesi ve insanların birbiriyle anlık mesajlaşma uygulamaları (Whatsapp, Telegram gibi) ile haberleşmesi aslında daha büyük bir depremde neler olacağının ve ne konularda eksik olduğumuzu görmemiz açısından hepimiz için öğretici ve aksiyon aldıran bir deprem oldu.</p>
+<p>İlk önce 24 Eylül&rsquo;de meydana gelen 4.8 şiddetindeki deprem hepimizi tedirgin etti. Her ne kadar yurt dışında yaşasamda tüm yakınlarım Türkiye&rsquo;de ve böyle bir anda ister istemez panik oluyorsunuz ve neler olduğuna daha yakından bakıp takip etmeye başlıyorsunuz. Bir yandan çalışırken bir yandan da Kandilli&rsquo;nin yayınladığı son depremler sayfasını takip etmeye başladım. Aklımda bu deprem beklenen büyük depremin habercisi olabilir mi sorusuna cevap aramak oldu. İlginç bir şekilde 4.8&rsquo;lik depremden sonra depremlerin büyüklüğü sönümleyerek devam etmek yerine benzeri büyüklükte ve daha küçük bir çok deprem olmaya devam ediyordu.</p>
+<p>Herkese bir anormallik olduğunu anlatmaya çalışıyordum ama tabi depremi kimsenin önceden bilemeyeceği bilimsel gerçeği insanların dikkatini çekmiyordu. 10 Ekim&rsquo;de şu tweet&rsquo;i attım;</p>
+<!-- raw HTML omitted -->
+<p>{% blockquote @mtrcn <a href="https://twitter.com/mTRcn/status/1177161644285333504">https://twitter.com/mTRcn/status/1177161644285333504</a> %}
+Turkiye&rsquo;nin su anda en buyuk beka sorunu yaklasan Istanbul depremidir. Bunun yanindaki tum guncel sorunlar ertelenebilir veya idare edilebilir.
+{% endblockquote %}</p>
+<p>Bu tweet&rsquo;i attıktan hemen sonra 5.8 şiddetinde deprem oldu. Büyük bir rastlantıydı, ama sadece 4.8&rsquo;lik depremden sonrasını takip ederek yerin hareketlerinin dinmemesinden şüphelenip böyle tweet atmıştım.</p>
+<p>Deprem sonrası mobil şebeke çöktü, hatta kullandığım AFAD'ın mobil uygulaması da çalışmaz hale geldi.</p>
+<p>Hikaye kısmı bu kadar.</p>
+<p>Eğer herkes bu depremleri kolayca edebilse ve bunu kendini son depremde ispat etmiş anlık mesajlaşma uygulaması üzerinden yapsa nasıl olur diyip, Telegram API&rsquo;larına göz attım (maalesef Whatsapp'ın böyle bir API hizmetini bulamadım).  Daha sonra Kandilli son depremlerinin listelendiği sayfayı çekip bir Telegram kanalına mesaj olarak atma kısmını tasarladım. Bunun için AWS Serverless ve .Net Core teknolojilerini kullandım.</p>
+<p>Tüm çalışmayı Github üzerinde yayınladım. <a href="https://github.com/Geomates/KandilliEarthquakeNotifier">https://github.com/Geomates/KandilliEarthquakeNotifier</a></p>
+<p>Uygulama şu anda kendi AWS hesabım üzerinde aktif olarak çalışıyor ve depremleri https://t.me/kandillisondepremler kanalına gönderiyor.</p>
+]]></content>
+        </item>
+        
+        <item>
+            <title>Eindhoven Philips Müzesi</title>
+            <link>http://mete.dev/tr/posts/eindhoven-philips-muzesi/</link>
+            <pubDate>Sat, 23 Mar 2019 21:55:09 +0000</pubDate>
+            
+            <guid>http://mete.dev/tr/posts/eindhoven-philips-muzesi/</guid>
+            <description>Bugün Eindhoven&amp;rsquo;da bulunan Philips Müzesini gezdik. Müzede çoğunlukla duvardaki şirketin tarihi ile ilgili açıklamalar ve bu metinlerde geçen ürünlerden örnekler mevcut. Ben bu açıdan, bu kadar yazı okuyarak vakit geçirilen müzeleri sevmiyorum. Bu yazıları internette de bulmak mümkün. Müzede ilgi çekici bölümler de vardı, özellikler ışıklandırma sistemlerinin gelişimi ve bir ampül üreticisinin aynı teknoloji ile değişik sektörlere fayda sağlayacak ürünlerle gelişmesi ve genel bir teknoloji şirketine dönüşümü çok ilgimi çekti.</description>
+            <content type="html"><![CDATA[<p>Bugün Eindhoven&rsquo;da bulunan Philips Müzesini gezdik. Müzede çoğunlukla duvardaki şirketin tarihi ile ilgili açıklamalar ve bu metinlerde geçen ürünlerden örnekler mevcut. Ben bu açıdan, bu kadar yazı okuyarak vakit geçirilen müzeleri sevmiyorum. Bu yazıları internette de bulmak mümkün. Müzede ilgi çekici bölümler de vardı, özellikler ışıklandırma sistemlerinin gelişimi ve bir ampül üreticisinin aynı teknoloji ile değişik sektörlere fayda sağlayacak ürünlerle gelişmesi ve genel bir teknoloji şirketine dönüşümü çok ilgimi çekti.</p>
+<!-- raw HTML omitted -->
+<p>Müzede Philips&rsquo;in ampül firmasından çıkarak değişik ürünler üretmeye başlaması ile ortaya koyduğu ürünlerin ilklerini görebiliyorsunuz. Bazı ürünleri zamanında kullanmış olmak veya kullanıldığına şahit olmak insanı geçmişe götürüyor. Bu ürünleri cep telefonumun kamerasını açıp kaydettim.</p>
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="https://www.youtube.com/embed/SeTIXEHH6ao" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
+</div>
+
+<p>Teknoloji tarihi ve teknoloji firmalarının tarihi ile ilgileniyorsanız gitmenizi tavsiye ederim.</p>
+]]></content>
+        </item>
+        
+        <item>
+            <title>Merhaba</title>
+            <link>http://mete.dev/tr/posts/hello-world/</link>
+            <pubDate>Tue, 19 Mar 2019 00:00:00 +0000</pubDate>
+            
+            <guid>http://mete.dev/tr/posts/hello-world/</guid>
+            <description>Blog tutmayı uzun süredir bırakmıştım ve geri dönmeyi de neredeyse aynı süredir istiyordum. İş, üniversite ve özel hayattaki yoğun gündem beni ancak bugün bu isteğime ulaşmamı sağladı.</description>
+            <content type="html"><![CDATA[<p>Blog tutmayı uzun süredir bırakmıştım ve geri dönmeyi de neredeyse aynı süredir istiyordum. İş, üniversite ve özel hayattaki yoğun gündem beni ancak bugün bu isteğime ulaşmamı sağladı.</p>
+]]></content>
+        </item>
+        
+    </channel>
+</rss>
