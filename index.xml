@@ -75,7 +75,8 @@ from pyspark.sql.functions import col, dayofmonth, month, year df = #load data f
       
       <guid>http://mete.dev/about/</guid>
       <description>About Blog I&amp;rsquo;m willing to share followings in this blog;
- solutions for challanges I come up with new technologies that I recently discovered my review and comments about other blog posts / articles  About Author My name is Mete. I have been software developer for a long time. In fact I had a very popular blog website that I couldn&amp;rsquo;t continue on writing, and, sadly, I have lost its archive.</description>
+ solutions for challanges I come up with new technologies that I recently discovered my review and comments about other blog posts / articles  Built with Hugo and the theme by Djordje Atlialp
+About Author My name is Mete. I have been software developer for a long time. In fact I had a very popular blog website that I couldn&amp;rsquo;t continue on writing, and, sadly, I have lost its archive.</description>
     </item>
     
     <item>
@@ -86,6 +87,7 @@ from pyspark.sql.functions import col, dayofmonth, month, year df = #load data f
       <guid>http://mete.dev/turkish/about/</guid>
       <description>Blog Hakkında Bu blogda;
  karşıma çıkan problemlere bulduğum çözümleri keşfettiğim yeni teknik konuları bulduğum güzel diğer blog yazılarını ve yazı hakkındaki yorumlarımı  paylaşmayı düşünüyorum.
+Bu siteyi Hugo ile oluşturdum ve temasını Djordje Atlialp geliştiricisinden aldım.
 Yazar Hakkında Adım Mete. Çok uzun süredir yazılım geliştirme ile uğraşıyorum. Çok eskiden bir blog sitem de vardı ancak devamını getiremedim. Maalesef arşivi de kaybetmişim. Yurt dışında yaşıyorum ve çalışıyorum. LinkedIn adresimden öz geçmişime ulaşmanız mümkün, başka ne diyebilirim :)</description>
     </item>
     
