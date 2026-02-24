@@ -1,0 +1,602 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on Mete Blog</title><link>https://mete.dev/posts/</link><description>Recent content in Posts on Mete Blog</description><generator>Hugo -- gohugo.io</generator><language>en</language><copyright>&lt;a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener"&gt;CC BY-NC 4.0&lt;/a&gt;</copyright><lastBuildDate>Thu, 02 Jan 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://mete.dev/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>Launching GeoDownloader.com: Simplifying OpenStreetMap Data Downloads</title><link>https://mete.dev/2025/01/02/launching-geodownloader.com-simplifying-openstreetmap-data-downloads/</link><pubDate>Thu, 02 Jan 2025 00:00:00 +0000</pubDate><guid>https://mete.dev/2025/01/02/launching-geodownloader.com-simplifying-openstreetmap-data-downloads/</guid><description>&lt;p&gt;I’m excited to share my new project I’ve been working on: &lt;strong&gt;&lt;a href="https://geodownloader.com/"&gt;GeoDownloader.com&lt;/a&gt;&lt;/strong&gt;, a tool I built to make downloading &lt;a href="https://www.openstreetmap.org/"&gt;OpenStreetMap&lt;/a&gt; (OSM) data easier and more intuitive than other website I have been used so far. If you’ve ever struggled with getting the right geospatial data in the right format for your project, I think you’ll find this project useful too.&lt;/p&gt;
+&lt;h2 id="why-i-created-geodownloadercom"&gt;Why I Created GeoDownloader.com&lt;/h2&gt;
+&lt;p&gt;Working with &lt;a href="https://www.openstreetmap.org/"&gt;OpenStreetMap&lt;/a&gt; data is incredibly rewarding for geospatial projects, but it can also be frustrating. The data is rich and comprehensive, but accessing it in a way that fits your project&amp;rsquo;s needs can be time-consuming. I&amp;rsquo;ve personally spent hours wrestling with overly complex workflows, converting file formats, and extracting specific data from larger datasets. While there are websites that help you download data, I don&amp;rsquo;t find them intuitive. Thus, I decided to build another one to make it easier for myself and anyone else who faces similar challenges.&lt;/p&gt;
+&lt;p&gt;Downloading data for a specific area with a small number of features can be particularly time-consuming. There are several options for downloading data through GIS applications like QGIS, but I wanted to create something that runs in your browser for small tasks (for now 😉).&lt;/p&gt;
+&lt;p&gt;That&amp;rsquo;s how &lt;a href="https://geodownloader.com"&gt;&lt;strong&gt;GeoDownloader.com&lt;/strong&gt;&lt;/a&gt; was born – a website where you can quickly download exactly the data you need, in the format you need, without any unnecessary hassle.&lt;/p&gt;
+&lt;h2 id="how-to-use"&gt;How to use&lt;/h2&gt;
+&lt;p&gt;I&amp;rsquo;ve designed GeoDownloader with a simple and approachable interface, making it easy for users new to GIS or &lt;a href="https://www.openstreetmap.org/"&gt;OpenStreetMap&lt;/a&gt; to start downloading data immediately.&lt;/p&gt;</description><content type="html"><![CDATA[<p>I’m excited to share my new project I’ve been working on: <strong><a href="https://geodownloader.com/">GeoDownloader.com</a></strong>, a tool I built to make downloading <a href="https://www.openstreetmap.org/">OpenStreetMap</a> (OSM) data easier and more intuitive than other website I have been used so far. If you’ve ever struggled with getting the right geospatial data in the right format for your project, I think you’ll find this project useful too.</p>
+<h2 id="why-i-created-geodownloadercom">Why I Created GeoDownloader.com</h2>
+<p>Working with <a href="https://www.openstreetmap.org/">OpenStreetMap</a> data is incredibly rewarding for geospatial projects, but it can also be frustrating. The data is rich and comprehensive, but accessing it in a way that fits your project&rsquo;s needs can be time-consuming. I&rsquo;ve personally spent hours wrestling with overly complex workflows, converting file formats, and extracting specific data from larger datasets. While there are websites that help you download data, I don&rsquo;t find them intuitive. Thus, I decided to build another one to make it easier for myself and anyone else who faces similar challenges.</p>
+<p>Downloading data for a specific area with a small number of features can be particularly time-consuming. There are several options for downloading data through GIS applications like QGIS, but I wanted to create something that runs in your browser for small tasks (for now 😉).</p>
+<p>That&rsquo;s how <a href="https://geodownloader.com"><strong>GeoDownloader.com</strong></a> was born – a website where you can quickly download exactly the data you need, in the format you need, without any unnecessary hassle.</p>
+<h2 id="how-to-use">How to use</h2>
+<p>I&rsquo;ve designed GeoDownloader with a simple and approachable interface, making it easy for users new to GIS or <a href="https://www.openstreetmap.org/">OpenStreetMap</a> to start downloading data immediately.</p>
+<p>The intuitive map interface allows you to visually select your <strong><em>area of interest (AOI)</em></strong>. Simply draw a shape on the map, and GeoDownloader will automatically capture all features within that boundary.</p>
+<p>You can easily customize your download by deselecting any unwanted features from the list, ensuring you only get the data you need.</p>
+<p>Understanding the importance of compatibility in GIS workflows, GeoDownloader supports exports in three formats:</p>
+<ul>
+<li>
+<p>GeoPackage</p>
+</li>
+<li>
+<p>Shapefile</p>
+</li>
+<li>
+<p>GeoJSON</p>
+</li>
+</ul>
+<p>Choose the format that best suits your tools, whether you&rsquo;re using QGIS, ArcGIS, or other software. Let me know in the comments if you need additional format options.</p>
+<h3 id="filtering-tools"><strong>Filtering Tools</strong></h3>
+<p>One of my favorite features is the ability to <strong>filter selected data</strong>. You can refine your selection based on:</p>
+<ul>
+<li>
+<p><strong>Tags:</strong> Select features by OSM tags like <code>highway</code>, <code>building</code>, or <code>landuse</code>.</p>
+</li>
+<li>
+<p><strong>Tag Values:</strong> Narrow down by specific tag values, such as <code>highway=primary</code> or <code>building=school</code>.</p>
+</li>
+<li>
+<p><strong>Geometry Type:</strong> Focus on specific geometry types, like points, lines, or polygons.</p>
+</li>
+</ul>
+<p>These filters give you precise control over what you’re downloading, saving you the effort of cleaning or preprocessing data later.</p>
+<h2 id="limits">Limits</h2>
+<p>There are some important limitations I need to explain. I created this tool to simplify downloading small datasets from OpenStreetMap, but there are certain constraints. Instead of proxying third-party APIs like <a href="https://wiki.openstreetmap.org/wiki/Overpass_API">Overpass API</a>, I host all OSM data on my server in an indexed format. This approach ensures you can access the data without restrictions from external services. Additionally, I wanted to avoid creating extra load on the free Overpass API.</p>
+<p>Hosting OSM data on my server involves costs that I need to cover, so I charge a small fee for downloading more than 100 features. If the website gains more users, I may be able to reduce this price, as my goal isn&rsquo;t to profit significantly from this service. 😊🤑</p>
+<h2 id="whats-next-for-geodownloadercom">What’s Next for GeoDownloader.com</h2>
+<p>While I’m thrilled with how far GeoDownloader has come, I see this as just the beginning. Here’s what I’m planning next:</p>
+<ul>
+<li>
+<p>Adding support for more file formats and data sources.</p>
+</li>
+<li>
+<p>Enhancing the filtering options with more granular controls.</p>
+</li>
+<li>
+<p>Increasing data limits for each package.</p>
+</li>
+</ul>
+<p>If you have ideas or features you’d like to see, I’d love to hear from you!</p>
+<h2 id="what-ive-learnt-from-this">What I&rsquo;ve learnt from this</h2>
+<p>Throughout the development of GeoDownloader.com, I gained invaluable experience and knowledge in handling OpenStreetMap (OSM) raw data. Here are some key takeaways from this journey:</p>
+<ol>
+<li>
+<p><strong>Dealing with OSM Raw Data</strong>: I learned how to efficiently manage and process raw OSM data. This involved understanding the structure of OSM data and file format (PBF).</p>
+</li>
+<li>
+<p><strong>Converting Data with GDAL and Python</strong>: I utilized GDAL (Geospatial Data Abstraction Library) and Python to convert OSM data into an indexable format. This process included writing scripts to automate data conversion and ensuring the data was ready for further analysis and use.</p>
+</li>
+<li>
+<p><strong>Using GeoPandas for Data Conversion</strong>: I explored GeoPandas, a powerful Python library, to convert the processed data into various formats. GeoPandas made it easier to handle geospatial data and perform complex operations, such as reprojecting and merging datasets.</p>
+</li>
+<li>
+<p><strong>Building UI with AI Tools</strong>: I learned how to use AI tools, specifically Claude AI, to build user interfaces faster and more professionally. This significantly improved the efficiency and quality of the UI development process.</p>
+</li>
+<li>
+<p><strong>Integrating Stripe for Payments</strong>: As the server cost is too high to cover myself, I learned how to integrate Stripe to collect a small fee to cover these costs for large data sets. This integration was crucial for maintaining the sustainability of the project.</p>
+</li>
+<li>
+<p><strong>Using Tailwind CSS for Frontend Development</strong>: Although I am primarily a back-end developer and do not do much front-end coding in my daily job, I used the Tailwind CSS framework to build the UI. I found its ready-to-use class names extremely useful and efficient for developing interfaces.</p>
+</li>
+</ol>
+<h2 id="try-it-out">Try It Out</h2>
+<p>GeoDownloader.com is live now, and I’d be honored if you gave it a try. I hope it makes your work with OpenStreetMap data faster, easier, and more enjoyable.</p>
+<p>Head over to <a href="https://geodownloader.com/">GeoDownloader.com</a> and let me know what you think.</p>]]></content></item><item><title>A new way to add GeoJSON content into QGIS as a layer</title><link>https://mete.dev/2023/01/01/a-new-way-to-add-geojson-content-into-qgis-as-a-layer/</link><pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate><guid>https://mete.dev/2023/01/01/a-new-way-to-add-geojson-content-into-qgis-as-a-layer/</guid><description>&lt;p&gt;When you need to import a GeoJSON file into your QGIS project, you just need to drag &amp;amp; drop the GeoJSON file from File Browser.&lt;/p&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;p&gt;&lt;img src="https://mete.dev/2023/01/01/a-new-way-to-add-geojson-content-into-qgis-as-a-layer/images/image-1.png" alt=""&gt;&lt;/p&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;p&gt;Adding a GeoJSON file as a layer is easy as drag &amp;amp; drop action&lt;/p&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;p&gt;However, if the GeoJSON content you want to import is not in a file already, then you need to first create a file with this content and import it as shown above. This workaround could be time-consuming especially if you just want to visualize the GeoJSON to see where geometries are located on the map together with other layers repetitively.&lt;/p&gt;
+&lt;p&gt;On the other hand, you may ask why not just use &lt;a href="https://geojson.io"&gt;geojson.io&lt;/a&gt; for this purpose. It is a valid question if your data is in WGS-84 (EPSG:4326) or Web Mercator (EPSG:3857) coordinate systems and you don&amp;rsquo;t want to see your data along with other layers, but if you need to visualize GeoJSON content in different coordinate systems with other layers, you had to follow the solution above until now.&lt;/p&gt;</description><content type="html"><![CDATA[<p>When you need to import a GeoJSON file into your QGIS project, you just need to drag &amp; drop the GeoJSON file from File Browser.</p>
+<!-- raw HTML omitted -->
+<p><img src="/2023/01/01/a-new-way-to-add-geojson-content-into-qgis-as-a-layer/images/image-1.png" alt=""></p>
+<!-- raw HTML omitted -->
+<p>Adding a GeoJSON file as a layer is easy as drag &amp; drop action</p>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<p>However, if the GeoJSON content you want to import is not in a file already, then you need to first create a file with this content and import it as shown above. This workaround could be time-consuming especially if you just want to visualize the GeoJSON to see where geometries are located on the map together with other layers repetitively.</p>
+<p>On the other hand, you may ask why not just use <a href="https://geojson.io">geojson.io</a> for this purpose. It is a valid question if your data is in WGS-84 (EPSG:4326) or Web Mercator (EPSG:3857) coordinate systems and you don&rsquo;t want to see your data along with other layers, but if you need to visualize GeoJSON content in different coordinate systems with other layers, you had to follow the solution above until now.</p>
+<p>During the holiday season, I developed a simple but effective plugin for this problem. Basically, you just need to paste your GeoJSON content into the input area, and that&rsquo;s it. It doesn&rsquo;t matter which coordinate system is in or contains different types of geometries. It recognizes different geometry types and creates layers for each type together with properties.</p>
+<!-- raw HTML omitted -->
+<p><img src="/2023/01/01/a-new-way-to-add-geojson-content-into-qgis-as-a-layer/images/image-3.png" alt=""></p>
+<!-- raw HTML omitted -->
+<p>A screenshot from my Quick GeoJSON plugin</p>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<p>I don&rsquo;t want to take your time, you can either search &ldquo;Quick GeoJSON&rdquo; in the plugin browser in QGIS or <a href="https://plugins.qgis.org/plugins/quick-geojson/">click here</a> to see and install via the QGIS website.</p>]]></content></item><item><title>My debloating experience with Poco F3</title><link>https://mete.dev/2021/08/07/my-debloating-experience-with-poco-f3/</link><pubDate>Sat, 07 Aug 2021 00:00:00 +0000</pubDate><guid>https://mete.dev/2021/08/07/my-debloating-experience-with-poco-f3/</guid><description>&lt;p&gt;&lt;img src="https://mete.dev/2021/08/07/my-debloating-experience-with-poco-f3/images/k11awhitesmall416.png" alt="i01.appmifile.com/webfile/globalimg/MandyZhang/…"&gt;&lt;/p&gt;
+&lt;p&gt;I recently bought a Xiaomi Poco F3 (128GB) at £234 from &lt;a href="https://www.mi.com/uk/"&gt;Xiaomi UK website&lt;/a&gt;. I think it is great hardware at this price. I have been using iPhone for the last three years (XR-&amp;gt;11-&amp;gt;12). Once I saw this deal on &lt;a href="https://www.hotukdeals.com/"&gt;hotukdeals&lt;/a&gt; website, I thought I should give it a try to Android after three years. I knew it will come with a lot of bloatware and I cannot uninstall them in a normal way, but I was ready to deal with it a hard way.&lt;/p&gt;</description><content type="html"><![CDATA[<p><img src="/2021/08/07/my-debloating-experience-with-poco-f3/images/k11awhitesmall416.png" alt="i01.appmifile.com/webfile/globalimg/MandyZhang/…"></p>
+<p>I recently bought a Xiaomi Poco F3 (128GB) at £234 from <a href="https://www.mi.com/uk/">Xiaomi UK website</a>. I think it is great hardware at this price. I have been using iPhone for the last three years (XR-&gt;11-&gt;12). Once I saw this deal on <a href="https://www.hotukdeals.com/">hotukdeals</a> website, I thought I should give it a try to Android after three years. I knew it will come with a lot of bloatware and I cannot uninstall them in a normal way, but I was ready to deal with it a hard way.</p>
+<p>Before making the final decision for the purchase, I did a quick research on Google and I found some good articles that explain how to remove bloatware on the phone via ADB shell. It seemed straight forward and I decided to purchase the phone.</p>
+<p>As soon as I got my phone, I followed these articles and started removing them one by one. However, I made a big mistake and suddenly my phone locked itself. I didn&rsquo;t know that I should remove my phone from my Xiaomi Account before removing the Mi Account application. I had to call Mi Customer Support but they didn&rsquo;t help at all, the guy on the phone asked me to reset my Mi Account password (didn&rsquo;t understand why), once he realized that didn&rsquo;t work, he asked me to send my identification documents to Xiaomi so that they could remove the lock. It was funny because I was removing these applications to stop sharing my personal data. After I did a bit of research on the internet, I found the solution. However, it was definitely annoying.</p>
+<p>If you want to debloat your phone, I suggest <a href="https://www.naldotech.com/xiaomi-poco-f3-bloatware/">this article</a> that explains step by step.</p>
+<p>Here is the list of apps that I deleted from my phone.</p>
+<ul>
+<li>
+<p>com.android.chrome</p>
+<ul>
+<li>Alternative: <a href="https://play.google.com/store/apps/details?id=com.microsoft.emmx">Microsoft Edge</a></li>
+</ul>
+</li>
+<li>
+<p>com.android.providers.downloads.ui</p>
+</li>
+<li>
+<p>com.android.providers.partnerbookmarks</p>
+</li>
+<li>
+<p>com.android.soundrecorder</p>
+</li>
+<li>
+<p>com.android.stk</p>
+</li>
+<li>
+<p>com.bsp.catchlog</p>
+</li>
+<li>
+<p>com.facebook.appmanager</p>
+</li>
+<li>
+<p>com.facebook.services</p>
+</li>
+<li>
+<p>com.facebook.system</p>
+</li>
+<li>
+<p>com.google.android.apps.googleassistant</p>
+</li>
+<li>
+<p>com.google.android.apps.messaging</p>
+<ul>
+<li>Alternative: <a href="https://play.google.com/store/apps/details?id=com.moez.QKSMS">QKSMS</a></li>
+</ul>
+</li>
+<li>
+<p>com.google.android.apps.subscriptions.red</p>
+</li>
+<li>
+<p>com.google.android.apps.wellbeing</p>
+</li>
+<li>
+<p>com.google.android.calendar</p>
+<ul>
+<li>
+<p>Keep it if you use Google Calendar</p>
+</li>
+<li>
+<p>Alternative: <a href="https://play.google.com/store/apps/details?id=com.microsoft.office.outlook">Microsoft Outlook</a></p>
+</li>
+</ul>
+</li>
+<li>
+<p>com.google.android.contacts</p>
+<ul>
+<li>Keep it if you use Google contacts</li>
+<li>Alternative: <a href="https://play.google.com/store/apps/details?id=com.simplemobiletools.contacts">Simple Contacts</a></li>
+</ul>
+</li>
+<li>
+<p>com.google.android.feedback</p>
+</li>
+<li>
+<p>com.google.android.gm</p>
+<ul>
+<li>You may want to keep it if you use GMail</li>
+<li>Alternative: <a href="https://play.google.com/store/apps/details?id=com.microsoft.office.outlook">Microsoft Outlook</a></li>
+<li>Alternative: <a href="https://play.google.com/store/apps/details?id=com.fsck.k9">K-9 Mail</a></li>
+</ul>
+</li>
+<li>
+<p>com.google.android.googlequicksearchbox</p>
+</li>
+<li>
+<p>com.google.android.inputmethod.latin</p>
+<ul>
+<li>It is Google Keyboard, you should install an alternative first otherwise it can break your system.</li>
+<li>Alternative: <a href="https://play.google.com/store/apps/details?id=com.touchtype.swiftkey">Microsoft SwiftKey Keyboard</a></li>
+</ul>
+</li>
+<li>
+<p>com.google.android.marvin.talkback</p>
+</li>
+<li>
+<p>com.google.android.syncadapters.contacts</p>
+<ul>
+<li>Keep it if you use Google Contacts</li>
+</ul>
+</li>
+<li>
+<p>com.mi.android.globalFileexplorer</p>
+<ul>
+<li>Alternative: <a href="https://play.google.com/store/apps/details?id=com.cxinventor.file.explorer">Cx File Explorer</a></li>
+</ul>
+</li>
+<li>
+<p>com.mi.android.globalminusscreen</p>
+</li>
+<li>
+<p>com.milink.service</p>
+</li>
+<li>
+<p>com.mipay.wallet.in</p>
+</li>
+<li>
+<p>com.miui.analytics</p>
+</li>
+<li>
+<p>com.miui.backup</p>
+</li>
+<li>
+<p>com.miui.bugreport</p>
+</li>
+<li>
+<p>com.miui.calculator</p>
+</li>
+<li>
+<p>com.miui.cleanmaster</p>
+</li>
+<li>
+<p>com.miui.cloudbackup</p>
+</li>
+<li>
+<p>com.miui.cloudservice</p>
+</li>
+<li>
+<p>com.miui.cloudservice.sysbase</p>
+</li>
+<li>
+<p>com.miui.daemon</p>
+</li>
+<li>
+<p>com.miui.freeform</p>
+</li>
+<li>
+<p>com.miui.gallery</p>
+<ul>
+<li>Alternative: <a href="https://play.google.com/store/apps/details?id=com.simplemobiletools.gallery.pro">Simple Gallery Pro</a></li>
+</ul>
+</li>
+<li>
+<p>com.miui.hybrid</p>
+</li>
+<li>
+<p>com.miui.hybrid.accessory</p>
+</li>
+<li>
+<p>com.miui.micloudsync</p>
+</li>
+<li>
+<p>com.miui.miservice</p>
+</li>
+<li>
+<p>com.miui.mishare.connectivity</p>
+</li>
+<li>
+<p>com.miui.msa.global</p>
+</li>
+<li>
+<p>com.miui.notes</p>
+</li>
+<li>
+<p>com.miui.phrase</p>
+</li>
+<li>
+<p>com.miui.player</p>
+</li>
+<li>
+<p>com.miui.screenrecorder</p>
+</li>
+<li>
+<p>com.miui.screenshot</p>
+</li>
+<li>
+<p>com.miui.touchassistant</p>
+</li>
+<li>
+<p>com.miui.videoplayer</p>
+</li>
+<li>
+<p>com.miui.weather2</p>
+</li>
+<li>
+<p>com.miui.wmsvc</p>
+</li>
+<li>
+<p>com.miui.yellowpage</p>
+</li>
+<li>
+<p>com.tencent.soter.soterserver</p>
+</li>
+<li>
+<p>com.xiaomi.account</p>
+</li>
+<li>
+<p>com.xiaomi.glgm</p>
+</li>
+<li>
+<p>com.xiaomi.joyose</p>
+</li>
+<li>
+<p>com.xiaomi.mi_connect_service</p>
+</li>
+<li>
+<p>com.xiaomi.micloud.sdk</p>
+</li>
+<li>
+<p>com.xiaomi.midrop</p>
+</li>
+<li>
+<p>com.xiaomi.mipicks</p>
+</li>
+<li>
+<p>com.xiaomi.miplay_client</p>
+</li>
+<li>
+<p>com.xiaomi.payment</p>
+</li>
+<li>
+<p>com.xiaomi.scanner</p>
+</li>
+<li>
+<p>com.xiaomi.simactivate.service</p>
+</li>
+<li>
+<p>com.xiaomi.xmsf</p>
+</li>
+<li>
+<p>com.xiaomi.xmsfkeeper</p>
+</li>
+</ul>
+<p>As you can see, I put alternatives for some deleted apps because they are essential to read e-mails, browse the internet or your photo gallery. I listed Micorosft alternative for Google applications, you can ignore them if you are dependent on Google services. I mostly use Microsoft applications in my daily routine, so I didn&rsquo;t want to have duplication of the same application from Google.</p>
+<p>Unfortunately, this list doesn&rsquo;t cover all installed bloatware because some applications are breaking the phone if you remove them. For example, I couldn&rsquo;t manage to uninstall Security Center, Find Device service, and POCO Launcher. I really wanted to replace POCO Launcher with <a href="https://play.google.com/store/apps/details?id=com.teslacoilsw.launcher">my favourite Android launcher</a>, but it has not been possible so far. When you remove POCO Launcher, it breaks the Recent Apps button&rsquo;s functionality and it stops working. Uninstalling the Security Center application (com.miui.securitycenter) or the Find Device service (com.xiaomi.finddevice) puts the phone in a boot loop.</p>
+<p>In addition, when you get a new system update, you may find some uninstalled applications come back, thus I would suggest to keep the list of uninstalled applications to remove them again easily.</p>
+<p>I noted some commands below that you may also find useful.</p>
+<pre tabindex="0"><code># List all installed packages
+pm list packages
+
+# List all installed and uninstalled apps
+pm list packages -u
+
+# Disable app
+pm disable-user app.package.name
+
+# Re-enable it
+pm enable app.package.name
+
+# Uninstall app
+pm uninstall --user 0 app.package.name
+
+# Install uninstalled app
+pm install-existing app.package.name
+
+#Enable ADB via Network
+adb tcpip 5555
+
+#Disable ADB Network
+adb usb
+
+# Diff Files
+# It is usefull to compare output between (pm list packages) and (pm list packages -u), so you can keep the uninstalled apps list easily.
+diff --changed-group-format=&#39;%&gt;&#39; --unchanged-group-format=&#39;&#39; new_packages.txt  all_packages.txt
+</code></pre>]]></content></item><item><title>Build an SMS Forwarder with Raspberry PI Zero W and Waveshare SIM7000E hat</title><link>https://mete.dev/2021/02/21/build-an-sms-forwarder-with-raspberry-pi-zero-w-and-waveshare-sim7000e-hat/</link><pubDate>Sun, 21 Feb 2021 00:00:00 +0000</pubDate><guid>https://mete.dev/2021/02/21/build-an-sms-forwarder-with-raspberry-pi-zero-w-and-waveshare-sim7000e-hat/</guid><description>&lt;p&gt;In this guide, I will explain how to receive SMS messages and forward them to your Telegram account using Raspberry PI Zero W and &lt;a href="https://www.waveshare.com/SIM7000E-NB-IoT-HAT.htm"&gt;Wireshare GSM hat&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://mete.dev/2021/02/21/build-an-sms-forwarder-with-raspberry-pi-zero-w-and-waveshare-sim7000e-hat/images/2021-02-21-14_09_49-Clipboard.png" alt=""&gt;&lt;/p&gt;
+&lt;p&gt;Python will be used to read SMS messages and forward them to &lt;a href="https://core.telegram.org/bots/api"&gt;Telegram Bot API&lt;/a&gt;. Messages will be listened to by &lt;a href="https://wammu.eu/smsd/"&gt;Gammu&lt;/a&gt; SMS service and it will trigger the Python script when an SMS message received.&lt;/p&gt;</description><content type="html"><![CDATA[<p>In this guide, I will explain how to receive SMS messages and forward them to your Telegram account using Raspberry PI Zero W and <a href="https://www.waveshare.com/SIM7000E-NB-IoT-HAT.htm">Wireshare GSM hat</a>.</p>
+<p><img src="/2021/02/21/build-an-sms-forwarder-with-raspberry-pi-zero-w-and-waveshare-sim7000e-hat/images/2021-02-21-14_09_49-Clipboard.png" alt=""></p>
+<p>Python will be used to read SMS messages and forward them to <a href="https://core.telegram.org/bots/api">Telegram Bot API</a>. Messages will be listened to by <a href="https://wammu.eu/smsd/">Gammu</a> SMS service and it will trigger the Python script when an SMS message received.</p>
+<h2 id="setup">Setup</h2>
+<p>First of all, we have to enable communication between GSM hat and Raspberry PI Zero, run Raspberry Pi Software Configuration Tool (raspi-config);</p>
+<pre tabindex="0"><code>$ sudo raspi-config
+</code></pre><p>Then, follow following actions;</p>
+<!-- raw HTML omitted -->
+<p><img src="/2021/02/21/build-an-sms-forwarder-with-raspberry-pi-zero-w-and-waveshare-sim7000e-hat/images/image-1.png" alt=""></p>
+<!-- raw HTML omitted -->
+<p>Go to Interface Options</p>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<p><img src="/2021/02/21/build-an-sms-forwarder-with-raspberry-pi-zero-w-and-waveshare-sim7000e-hat/images/image-2.png" alt=""></p>
+<!-- raw HTML omitted -->
+<p>Select and enter P6 Serial Port</p>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<p><img src="/2021/02/21/build-an-sms-forwarder-with-raspberry-pi-zero-w-and-waveshare-sim7000e-hat/images/image-3.png" alt=""></p>
+<!-- raw HTML omitted -->
+<p>Select No at this screen.</p>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<p><img src="/2021/02/21/build-an-sms-forwarder-with-raspberry-pi-zero-w-and-waveshare-sim7000e-hat/images/image-4.png" alt=""></p>
+<!-- raw HTML omitted -->
+<p>Lastly, select Yes at this screen.</p>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<p>Exit configuration tool. Now we need to enable UART on raspberry pi. Shutdown and eject SD card to open in another computer. Open /boot/config.txt file, find the below statement and uncomment it to enable the UART. You can directly append it at the end of the file as well.</p>
+<pre tabindex="0"><code>enable_uart=1
+</code></pre><p>Now, reboot raspberry pi device and open the console to install Gammu SMS Deamon and Python PiP package installer.</p>
+<pre tabindex="0"><code>$ sudo apt-get update
+$ sudo apt-get install python-pip gammu-smsd
+</code></pre><p>Install Telegram Bot API python library.</p>
+<pre tabindex="0"><code>$ sudo pip install python-telegram-bot==12.3.0
+</code></pre><p><em>Note: Version 12.3.0 is the latest version that is compatible with Python 2.7, if you want to use it with Python 3+ version, you can install the latest available version.</em></p>
+<p>Now you need to create a bot in Telegram and obtain a token. Afterwards, start a chat with that bot in your Telegram account and send a test message to your bot. This will help us to identify your chat ID.</p>
+<p>Open following URL with you Telegram Bot token and copy the chat ID in the response;</p>
+<pre tabindex="0"><code>https://api.telegram.org/bot[YOUR-BOT-TOKEN]/getUpdates
+</code></pre><!-- raw HTML omitted -->
+<p><img src="/2021/02/21/build-an-sms-forwarder-with-raspberry-pi-zero-w-and-waveshare-sim7000e-hat/images/image.png" alt=""></p>
+<!-- raw HTML omitted -->
+<p>This is your chat ID.</p>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<p>Save following script in /home/pi/forward-telegram.py;</p>
+<pre tabindex="0"><code>#!/usr/bin/env python
+from __future__ import print_function
+import os
+import sys
+import telegram
+
+numparts = int(os.environ[&#39;DECODED_PARTS&#39;])
+
+text = &#39;&#39;
+# Are there any decoded parts?
+if numparts == 0:
+    text = os.environ[&#39;SMS_1_TEXT&#39;]
+# Get all text parts
+else:
+    for i in range(1, numparts + 1):
+        varname = &#39;DECODED_%d_TEXT&#39; % i
+        if varname in os.environ:
+            text = text + os.environ[varname]
+
+# Log
+print(&#39;Number %s have sent text: %s&#39; % (os.environ[&#39;SMS_1_NUMBER&#39;], text))
+
+#Send by Telegram
+bot = telegram.Bot(token=&#39;[YOUR-BOT-TOKEN]&#39;)
+bot.send_message(chat_id=[YOUR CHAT ID], text=os.environ[&#39;SMS_1_NUMBER&#39;].strip() + &#34; | &#34;+ text)
+</code></pre><p>Make python file executable</p>
+<pre tabindex="0"><code>$ chmod +x /home/pi/forward-telegram.py
+</code></pre><p>Update Gammu SMS Deamon&rsquo;s configuration to use GSM hat. Waveshare uses /dev/ttyS0 for communication.</p>
+<pre tabindex="0"><code>$ sudo nano /etc/gammu-smsdrc
+</code></pre><p>Find following lines in the configuration file and update with correct values, for me these values are following;</p>
+<pre tabindex="0"><code>port = /dev/ttyS0
+connection = at115200
+</code></pre><p>Also, we need to specify the script path to be ran by Gammu so add following line below [smsd] section;</p>
+<pre tabindex="0"><code>RunOnReceive = /home/pi/forward-telegram.py
+</code></pre><p>You can find my complete configuration file <a href="https://gist.github.com/mtrcn/045d7eeef1e38c092939d5ee87f96fb0">here</a>.</p>
+<p>Restart Gammu SMS service.</p>
+<pre tabindex="0"><code>$ sudo systemctl restart gammu-smsd.service
+</code></pre><p>That&rsquo;s all! You should now able to get your SMS messages to your Telegram account.</p>
+<p>You can monitor Gammu SMS service for any problem with the following command;</p>
+<pre tabindex="0"><code>$ sudo systemctl status gammu-smsd.service
+</code></pre>]]></content></item><item><title>Delete Azure Blob Files Only In a Folder</title><link>https://mete.dev/2020/05/13/delete-azure-blob-files-only-in-a-folder/</link><pubDate>Wed, 13 May 2020 00:00:00 +0000</pubDate><guid>https://mete.dev/2020/05/13/delete-azure-blob-files-only-in-a-folder/</guid><description>&lt;p&gt;If you are looking for a command to delete Azure blob files in a folder with one command, here is the solution;&lt;/p&gt;</description><content type="html"><![CDATA[<p>If you are looking for a command to delete Azure blob files in a folder with one command, here is the solution;</p>
+<pre tabindex="0"><code>az storage blob delete-batch -s mycontainer --pattern &#39;*[/]*&#39;
+</code></pre>]]></content></item><item><title>A solution to make PowerBI Direct Query Reports parametrised in CI/CD pipeline</title><link>https://mete.dev/2019/12/15/a-solution-to-make-powerbi-direct-query-reports-parametrised-in-ci/cd-pipeline/</link><pubDate>Sun, 15 Dec 2019 00:00:00 +0000</pubDate><guid>https://mete.dev/2019/12/15/a-solution-to-make-powerbi-direct-query-reports-parametrised-in-ci/cd-pipeline/</guid><description>&lt;p&gt;PowerBI REST APIs are very limited with restrictions for specific usages. One of the restriction is that you cannot update parameters on your PowerBI dataset via APIs if you&amp;rsquo;re using Direct Query. It is a problem if you want to have a master template PowerBI report and create reports based on the master for each different project with different parameters.&lt;/p&gt;</description><content type="html"><![CDATA[<p>PowerBI REST APIs are very limited with restrictions for specific usages. One of the restriction is that you cannot update parameters on your PowerBI dataset via APIs if you&rsquo;re using Direct Query. It is a problem if you want to have a master template PowerBI report and create reports based on the master for each different project with different parameters.</p>
+<p>Assume that your report uses DirectQuery and API document says you cannot use <a href="https://docs.microsoft.com/en-us/rest/api/power-bi/datasets/updateparameters">Update Parameters</a> endpoint. In this article, I presume that the report uses Direct Query with MS SQL Server. The only thing I can change via APIs is the connection parameters via <a href="https://docs.microsoft.com/en-us/rest/api/power-bi/gateways/updatedatasource">Update Datasource</a> endpoint. Luckily, SQL Server 2016 introduced with <a href="https://docs.microsoft.com/en-us/sql/relational-databases/security/row-level-security">Row-Level Security</a> that allows us to limit user&rsquo;s access to data at row level. We can create a master table to hold master data for each project, and the rest of the tables can make <strong>inner join</strong> with this table for Power BI reports. During the CI/CD process, we can call Update Datasource endpoint for the newly created dataset and update its user credential to limit its data for a specific project. It can be used as a solution until Microsft removes restrictions on Update Parameter&rsquo;s endpoint for Direct Query based reports. This solution makes a bit complicated, but it works. Hope you find it useful. Leave your comments if you have better a solution, love to hear it.</p>]]></content></item><item><title>Export Bunq account statements for UK visa application via Bunq's APIs</title><link>https://mete.dev/2019/12/01/export-bunq-account-statements-for-uk-visa-application-via-bunqs-apis/</link><pubDate>Sun, 01 Dec 2019 00:00:00 +0000</pubDate><guid>https://mete.dev/2019/12/01/export-bunq-account-statements-for-uk-visa-application-via-bunqs-apis/</guid><description>&lt;p&gt;Six months ago, I applied to UK visa together with a solicitor. My solicitor asked me to provide daily bank statements for the last three months to prove that my account balance never down below asked level by Home Office. At that time, I was using Bunq and had a chat with Bunq support, and I was told that it is not possible via application unless I export statements day by day. That means I had to do some actions for 90 times. Thank god, I&amp;rsquo;m a developer and Bunq provides API that can automate it.&lt;/p&gt;</description><content type="html"><![CDATA[<p>Six months ago, I applied to UK visa together with a solicitor. My solicitor asked me to provide daily bank statements for the last three months to prove that my account balance never down below asked level by Home Office. At that time, I was using Bunq and had a chat with Bunq support, and I was told that it is not possible via application unless I export statements day by day. That means I had to do some actions for 90 times. Thank god, I&rsquo;m a developer and Bunq provides API that can automate it.</p>
+<p>First, I created an API key via Bunq&rsquo;s mobile application. Then, I started to read API documentation to find out which endpoints are available to export statements.</p>
+<p>I found that there is an endpoint with <code>/user/{userID}/monetary-account/{monetary-accountID}/customer-statement</code>, it generates statements and returns statement&rsquo;s <code>Id</code>, so that I can download the statement with this ID. It also requires <code>userID</code> and <code>monetary-accountID</code> as route parameters.</p>
+<p>Bunq provides <a href="https://github.com/bunq/sdk_python">Python SDK</a>; this makes my job easier for authentication and API calls.</p>
+<p>I started to code, first of all, I need to create an API context with following;</p>
+<pre tabindex="0"><code>from bunq.sdk import context, client
+
+apiContext =  context.ApiContext(context.ApiEnvironmentType.PRODUCTION, &#39;[API KEY]&#39;,  &#34;ExportStatementClient&#34;)
+apiContext.save(&#39;D:/BunqApiContext&#39;)
+</code></pre><p>Then, I need to obtain my <code>userID</code>, and I can get it with the following code;</p>
+<pre tabindex="0"><code>rom bunq.sdk import context, client
+
+apiContext =  context.ApiContext(context.ApiEnvironmentType.PRODUCTION, &#39;[API KEY]&#39;,  &#34;ExportStatementClient&#34;)
+apiContext.restore(&#39;D:/BunqApiContext&#39;)
+bunq_client = client.ApiClient(apiContext)
+
+response = bunq_client.get(&#39;user&#39;, [], [])
+print (response.body_bytes)
+</code></pre><p>I noted my userID in response to use it later.</p>
+<p>Now I can get my <code>monetary-accountID</code> with following;</p>
+<pre tabindex="0"><code>bunq_client = client.ApiClient(apiContext)
+response = bunq_client.get(&#39;user/{userId}/monetary-account-bank&#39;, [], [])
+print (response.body_bytes)
+</code></pre><p>It returns all your accounts, so note your <code>monetary-accountID</code> in response to export its statements.</p>
+<p>Now, as we have all the required parameters, we can export statements as PDF files for the last 90 days in one go without using dealing with multiple UI actions for each of them.</p>
+<pre tabindex="0"><code>import requests
+from datetime import date, timedelta
+import time
+import uuid
+from bunq.sdk import context, client
+import json
+
+def dict_to_bytes(the_dict):
+    return bytes(json.dumps(the_dict).encode(&#39;utf-8&#39;))
+
+if __name__ == &#34;__main__&#34;:
+    apiContext =  context.ApiContext(context.ApiEnvironmentType.PRODUCTION, &#39;[API KEY]&#39;,  &#34;ExportStatementClient&#34;)
+    apiContext.restore(&#39;D:/BunqApiContext&#39;)
+    bunq_client = client.ApiClient(apiContext)
+
+    userId = XXXXX
+    accountId = XXXX
+    output_folder = &#39;D:/BunqStatements&#39;
+
+    today = date.today()
+    first_date = today + timedelta(days=-90)
+    current_date = first_date
+    i = 0
+    statements = []
+    while i &lt; 90:
+        params = {
+            &#34;statement_format&#34;: &#34;PDF&#34;,
+            &#34;date_start&#34;: current_date.strftime(&#34;%d-%m-%Y&#34;),
+            &#34;date_end&#34;: (current_date+ timedelta(days=1)).strftime(&#34;%d-%m-%Y&#34;)
+        }
+        response = bunq_client.post(&#39;user/&#39;+str(userId)+&#39;/monetary-account/&#39;+str(accountId)+&#39;/customer-statement&#39;, dict_to_bytes(params), [])
+        statement_id = json.loads(response.body_bytes)[&#39;Response&#39;][0][&#39;Id&#39;][&#39;id&#39;]
+        statements.append(statement_id)
+        response = bunq_client.get(&#39;user/&#39;+str(userId)+&#39;/monetary-account/&#39;+str(accountId)+&#39;/customer-statement/&#39;+str(statement_id)+&#39;/content&#39;, [], [])
+        f = open(output_folder + &#39;\statement-&#39;+current_date.strftime(&#34;%Y-%m-%d&#34;)+&#39;.pdf&#39;, &#39;wb+&#39;)
+        f.write(response.body_bytes)
+        f.close()
+        bunq_client.delete(&#39;user/&#39;+str(userId)+&#39;/monetary-account/&#39;+str(accountId)+&#39;/customer-statement/&#39;+str(statement_id), [])
+        i = i + 1
+        current_date = first_date + timedelta(days=i)
+        print (current_date.strftime(&#34;%d-%m-%Y&#34;)+&#39; saved.&#39;)
+</code></pre><p>That&rsquo;s all!</p>
+<p>I attached them to my visa application as supporting documents, and eventually, my visa application was approved.</p>]]></content></item><item><title>Export MS SQL tables to Parquet Files</title><link>https://mete.dev/2019/04/07/export-ms-sql-tables-to-parquet-files/</link><pubDate>Sun, 07 Apr 2019 00:00:00 +0000</pubDate><guid>https://mete.dev/2019/04/07/export-ms-sql-tables-to-parquet-files/</guid><description>&lt;p&gt;The following code exports MS SQL tables to Parquet files via PySpark. It can be used in tables that do not have an indexed column with the numerical type (int, float, etc.).&lt;/p&gt;</description><content type="html"><![CDATA[<p>The following code exports MS SQL tables to Parquet files via PySpark. It can be used in tables that do not have an indexed column with the numerical type (int, float, etc.).</p>
+<pre tabindex="0"><code>import sys
+from pyspark.sql.session import SparkSession
+
+def get_spark(jdbc_driver_path):
+    return SparkSession.builder.master(&#34;local[10]&#34;).config(&#34;spark.driver.extraClassPath&#34;, jdbc_driver_path).getOrCreate()
+
+def get_sql_dataframe(host, database_name, table_name, order_by, upperBound, partition_num):
+    return spark.read.format(&#34;jdbc&#34;)\
+        .option(&#34;url&#34;, &#34;jdbc:sqlserver://{host};databasename={database_name};IntegratedSecurity=true&#34;.format(host=host, database_name=database_name))\
+        .option(&#34;dbtable&#34;, &#34;(SELECT ROW_NUMBER() OVER (ORDER BY {order_by}) AS row_num, * FROM {table_name}) as tmp&#34;.format(order_by=order_by, table_name=table_name))\
+        .option(&#34;partitionColumn&#34;, &#34;row_num&#34;)\
+        .option(&#34;lowerBound&#34;, 0)\
+        .option(&#34;upperBound&#34;, upperBound)\
+        .option(&#34;numPartitions&#34;, partition_num)\
+        .load()\
+        .drop(&#39;row_num&#39;)
+
+def get_count(host, database_name, table_name):
+    return spark.read.format(&#34;jdbc&#34;)\
+        .option(&#34;url&#34;, &#34;jdbc:sqlserver://{host};databasename={database_name};IntegratedSecurity=true&#34;.format(host=host, database_name=database_name))\
+        .option(&#34;dbtable&#34;, &#34;(SELECT COUNT(*) as row_count FROM {table_name}) as tmp&#34;.format(table_name=table_name))\
+        .load()\
+        .first()[&#39;row_count&#39;]
+
+def export(sql_df, output_folder):
+    sql_df.write.mode(&#34;overwrite&#34;).parquet(output_folder)
+
+if __name__ == &#34;__main__&#34;:
+    # Database Configuration
+    host = &#39;[Host Name]&#39;
+    database_name = &#39;[Database Name]&#39;
+    table_name = &#39;[Table Name]&#39;
+    order_by = &#39;[Indexed Column] DESC&#39;
+    jdbc_driver_path = &#39;mssql-jdbc-6.4.0.jre8.jar&#39;
+
+    # Output
+    output_folder = &#39;[Output Folder]&#39;
+    partition_num = 1000
+
+    spark = get_spark(jdbc_driver_path)
+
+    total_count = get_count(host, database_name, table_name)
+
+    print str(total_count) + &#34; rows will be exported.&#34;
+
+    sql_df = get_sql_dataframe(host, database_name, table_name, order_by, total_count, partition_num)
+
+    export(sql_df, output_folder)
+</code></pre>]]></content></item><item><title>Partition Parquet File by Date</title><link>https://mete.dev/2019/04/07/partition-parquet-file-by-date/</link><pubDate>Sun, 07 Apr 2019 00:00:00 +0000</pubDate><guid>https://mete.dev/2019/04/07/partition-parquet-file-by-date/</guid><description>&lt;p&gt;The pyspark script below can split one single big parquet file into small parquet files based on &lt;code&gt;date&lt;/code&gt; column.&lt;/p&gt;</description><content type="html"><![CDATA[<p>The pyspark script below can split one single big parquet file into small parquet files based on <code>date</code> column.</p>
+<pre tabindex="0"><code>from pyspark.sql.functions import col, dayofmonth, month, year
+
+df = #load data frame
+
+dt = col(&#34;date&#34;).cast(&#34;date&#34;)
+fname = [(year, &#34;year&#34;), (month, &#34;month&#34;), (dayofmonth, &#34;day&#34;)]
+exprs = [col(&#34;*&#34;)] + [f(dt).alias(name) for f, name in fname]
+
+(df.select(*exprs).write.partitionBy(*(name for _, name in fname)).mode(&#34;overwrite&#34;).parquet(&#39;output_location&#39;))
+</code></pre>]]></content></item></channel></rss>
