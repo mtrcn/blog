@@ -127,7 +127,6 @@ disableHugoGeneratorInject = false
   # If you want, you can easily override the default footer with your own content. 
   #
   [params.footer]
-    trademark = 2023
     rss = true
 
   # Colors for favicons
