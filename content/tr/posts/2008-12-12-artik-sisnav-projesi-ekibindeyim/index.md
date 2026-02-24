@@ -1,0 +1,12 @@
+---
+title: "Artık SISNav projesi ekibindeyim"
+date: 2008-12-12
+---
+
+Gelişmiş kişisel navigasyon programı olan [SISNav](http://www.sis-nav.com/), iki yıldan fazla bir zamandır geliştirilmekte. İTÜ'de amatörce başlayan geliştirme süreci şimdilerde profesyonelce devam ediyor. Altyapısında J2ME ve J2ME Polish kullanılıyor. SISNav'ın en önemli özelliği basılı haritalar ile navigasyon yapabilmenizi sağlıyor. Bu dünyada ilk! [![sisnav-pafta](images/sisnav-pafta-150x150.png "sisnav-pafta")](http://www.mtrcn.com/wp-content/uploads/2008/12/sisnav-pafta.png) Ben de uzun zamandır Java öğrenmek için elime bir proje geçsin diye can atıyordum çünkü yapacağım bir proje yoksa o dili öğrenmek için bir istek olmuyor. Her ne kadar yapacağım bir proje olmasada aldığım Java kitaplarındaki örnekleri yaparak uzun zamandır bir şeyler yapmaya çalışıyordum.
+
+Geçen hafta Pazartesi günü Umut Utkan aradı, SISNAV projesinin başındaki isim, projeye benim Pafta Bulucu algoritmamı eklemek istiyormuş. Benim geliştirmek isteyip istemediğimi sordu.  Bende bu kabul ettim tabi :) İşte bana Java öğrenmek için proje çıktı!
+
+Geçen Cumartesi günü okulda bir araya geldik, bana nereden başyacağımı nasıl derleyip test edeceğimi falan fistan ne varsa anlattı. Yaklaşık yedi saat çalıştık. Çalıştığımız araçlar Windows'ta düzgün çalışmadığından eve gidince onun tabiriyle "kız Linux'u" Ubuntu 8.1 kurdum, kendisi Debian kullanıyor ve herşeyi komutla yapıyor, ve başladım. Bir kaç gün sonra bayramın ilk gecesi ilk ekran çıktımı aldım ve büyük heyecanla sonuçları ona gönderdim. Bu benim "Hello World" 'den sonra yazdığmı ikinci beni heycanlandıran Java programım. Hızlı başladık :) Tabi geliştirmeye devam edebilmem için yeni şeyler anlatması gerekiyordu ve bayramın üçüncü günü yine okulda buluştuk ve 4-5 saat daha çalıştık. Baya bir şey öğrendim ve projeye yeni şeyler ekledim. Tabi eklediklerim şu anda deneme aşamasında olduğundan indirilebilir değil ancak yakında indirebileceksiniz.
+
+Peki ne mi yaptım? Pafta Bulucu'yu daha önce kullandıysanız bilirsinz; Pafta Bulucu'ya girdiğiniz koordinat hangi paftaya düşüyorsa 7 farklı ölçekte komşu paftaları ile birlikte gösteren bir program. Şimdi de aynısını cep telefonunda GPS'ten aldığı konum bilgisine göre hangi paftada olduğunuzu görüyorusunuz. Böylece arazide elinizdeki paftaların hangisi üstünde durduğunuz yada hangi paftayı belediyeden talep etmeiniz gerektiğini kolayca öğreneceksiniz.
