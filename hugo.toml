@@ -102,7 +102,7 @@ disableHugoGeneratorInject = false
   #
   # This option enables reading time part on post info
   #
-  enableReadingTime = true
+  enableReadingTime = false
 
   # Global language menu
   #
