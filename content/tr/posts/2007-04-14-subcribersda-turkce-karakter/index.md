@@ -1,5 +1,6 @@
 ---
-title: "Subcribers&#8217;da Türkçe Karakter"
+title: "Subcribers'da Türkçe Karakter"
+slug: "subcribersda-turkce-karakter"
 date: 2007-04-14
 ---
 

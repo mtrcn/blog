@@ -1,5 +1,6 @@
 ---
 title: "Türkiye Pafta Bulucu"
+slug: "turkiye-pafta-bulucu"
 date: 2007-02-03
 ---
 

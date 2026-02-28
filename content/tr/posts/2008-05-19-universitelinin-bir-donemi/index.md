@@ -1,5 +1,6 @@
 ---
 title: "Üniversitelinin Bir Dönemi"
+slug: "universitelinin-bir-donemi"
 date: 2008-05-19
 ---
 

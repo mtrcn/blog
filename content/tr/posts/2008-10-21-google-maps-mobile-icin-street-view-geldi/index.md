@@ -1,5 +1,6 @@
 ---
 title: "Google Maps Mobile için Street View geldi"
+slug: "google-maps-mobile-icin-street-view-geldi"
 date: 2008-10-21
 ---
 

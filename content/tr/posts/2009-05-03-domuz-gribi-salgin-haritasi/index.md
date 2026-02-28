@@ -1,5 +1,6 @@
 ---
 title: "Domuz Gribi Salgın Haritası"
+slug: "domuz-gribi-salgin-haritasi"
 date: 2009-05-03
 ---
 

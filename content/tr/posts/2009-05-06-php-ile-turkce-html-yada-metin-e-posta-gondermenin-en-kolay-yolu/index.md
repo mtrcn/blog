@@ -1,5 +1,6 @@
 ---
 title: "PHP ile Türkçe HTML yada Metin e-posta göndermenin en kolay yolu"
+slug: "php-ile-turkce-html-yada-metin-e-posta-gondermenin-en-kolay-yolu"
 date: 2009-05-06
 ---
 

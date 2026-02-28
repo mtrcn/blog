@@ -1,5 +1,6 @@
 ---
 title: "USGS'den Harita Projeksiyonları Hakkında E-Kitap"
+slug: "usgsden-harita-projeksiyonlari-hakkinda-pdf-kitap"
 date: 2011-01-23
 ---
 

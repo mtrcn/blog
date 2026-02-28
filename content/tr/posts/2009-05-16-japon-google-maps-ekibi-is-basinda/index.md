@@ -1,5 +1,6 @@
 ---
 title: "Japon Google Maps Ekibi İş Başında"
+slug: "japon-google-maps-ekibi-is-basinda"
 date: 2009-05-16
 ---
 

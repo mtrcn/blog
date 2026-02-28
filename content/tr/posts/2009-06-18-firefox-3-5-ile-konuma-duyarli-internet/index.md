@@ -1,5 +1,6 @@
 ---
 title: "Firefox 3.5 ile Konuma Duyarlı İnternet"
+slug: "firefox-3-5-ile-konuma-duyarli-internet"
 date: 2009-06-18
 ---
 

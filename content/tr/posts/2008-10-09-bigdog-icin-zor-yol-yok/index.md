@@ -1,5 +1,6 @@
 ---
 title: "BigDog için zor yol yok"
+slug: "bigdog-icin-zor-yol-yok"
 date: 2008-10-09
 ---
 

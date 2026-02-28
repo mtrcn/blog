@@ -1,5 +1,6 @@
 ---
 title: "Linux altında Windows programları çalıştırmak için 6 ücretsiz araç"
+slug: "linux-altinda-windows-programlari"
 date: 2008-11-19
 ---
 

@@ -1,5 +1,6 @@
 ---
 title: "Mio Karaşimşek GPS"
+slug: "mio-karasimsek-gps"
 date: 2008-07-18
 ---
 

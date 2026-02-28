@@ -1,5 +1,6 @@
 ---
 title: "Cartifact'den Online Haritacılıkta Yeni Arayüz"
+slug: "cartifactden-online-haritacilikta-yeni-arayuz"
 date: 2009-03-30
 ---
 

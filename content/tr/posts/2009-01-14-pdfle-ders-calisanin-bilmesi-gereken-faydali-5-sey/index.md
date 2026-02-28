@@ -1,5 +1,6 @@
 ---
 title: "PDF ile Ders Çalışanın Bilmesi Gereken Faydalı 5 Şey"
+slug: "pdfle-ders-calisanin-bilmesi-gereken-faydali-5-sey"
 date: 2009-01-14
 ---
 

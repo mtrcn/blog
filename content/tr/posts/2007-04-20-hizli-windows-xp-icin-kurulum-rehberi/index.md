@@ -1,5 +1,6 @@
 ---
 title: "Hızlı ve Performanslı Windows XP"
+slug: "hizli-windows-xp-icin-kurulum-rehberi"
 date: 2007-04-20
 ---
 

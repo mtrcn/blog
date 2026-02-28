@@ -1,5 +1,6 @@
 ---
 title: "Artık SISNav projesi ekibindeyim"
+slug: "artik-sisnav-projesi-ekibindeyim"
 date: 2008-12-12
 ---
 

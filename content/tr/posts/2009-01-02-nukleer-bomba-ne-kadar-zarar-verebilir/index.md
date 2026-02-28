@@ -1,5 +1,6 @@
 ---
 title: "Nükleer bomba ne kadar zarar verebilir?"
+slug: "nukleer-bomba-ne-kadar-zarar-verebilir"
 date: 2009-01-02
 ---
 

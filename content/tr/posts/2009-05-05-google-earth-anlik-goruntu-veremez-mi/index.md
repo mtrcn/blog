@@ -1,5 +1,6 @@
 ---
 title: "Google Earth Anlık Görüntü Veremez mi?"
+slug: "google-earth-anlik-goruntu-veremez-mi"
 date: 2009-05-05
 ---
 

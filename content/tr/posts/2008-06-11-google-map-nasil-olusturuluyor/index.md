@@ -1,5 +1,6 @@
 ---
 title: "Google Map Nasıl Oluşturuluyor?"
+slug: "google-map-nasil-olusturuluyor"
 date: 2008-06-11
 ---
 

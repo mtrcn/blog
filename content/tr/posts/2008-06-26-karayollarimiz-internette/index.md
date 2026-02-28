@@ -1,5 +1,6 @@
 ---
 title: "Karayollarımız İnternette"
+slug: "karayollarimiz-internette"
 date: 2008-06-26
 ---
 

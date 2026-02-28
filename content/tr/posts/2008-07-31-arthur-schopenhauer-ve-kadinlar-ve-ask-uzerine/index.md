@@ -1,5 +1,6 @@
 ---
 title: "Arthur Schopenhauer ve kadınlar ve aşk üzerine"
+slug: "arthur-schopenhauer-ve-kadinlar-ve-ask-uzerine"
 date: 2008-07-31
 ---
 

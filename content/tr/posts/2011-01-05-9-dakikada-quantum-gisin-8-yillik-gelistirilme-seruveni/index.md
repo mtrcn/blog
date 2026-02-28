@@ -1,5 +1,6 @@
 ---
 title: "9 Dakikada Quantum GIS'in 8 Yıllık Geliştirilme Serüveni"
+slug: "9-dakikada-quantum-gisin-8-yillik-gelistirilme-seruveni"
 date: 2011-01-05
 ---
 

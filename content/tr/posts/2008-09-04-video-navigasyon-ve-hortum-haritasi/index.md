@@ -1,5 +1,6 @@
 ---
 title: "Video Navigasyon ve Hortum Haritası"
+slug: "video-navigasyon-ve-hortum-haritasi"
 date: 2008-09-04
 ---
 

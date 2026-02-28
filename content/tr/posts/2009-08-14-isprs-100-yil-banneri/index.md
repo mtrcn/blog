@@ -1,5 +1,6 @@
 ---
 title: "ISPRS 100. Yıl Bannerı"
+slug: "isprs-100-yil-banneri"
 date: 2009-08-14
 ---
 

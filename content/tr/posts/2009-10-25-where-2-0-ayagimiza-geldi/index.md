@@ -1,5 +1,6 @@
 ---
 title: "Where 2.0 Ayağımıza Geldi"
+slug: "where-2-0-ayagimiza-geldi"
 date: 2009-10-25
 ---
 

@@ -1,5 +1,6 @@
 ---
 title: "Fiyat arama motoruna TeleAtlas'tan büyük ödül"
+slug: "fiyat-arama-motoruna-teleatlastan-buyuk-odul"
 date: 2008-09-24
 ---
 

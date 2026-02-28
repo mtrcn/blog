@@ -1,5 +1,6 @@
 ---
 title: "İki NASA uydusu(Terra ve Aqua) Meksika Körfezi Felaketini Görüntüledi"
+slug: "nasa-meksika-korfezinin-nasil-oldugunu-goruntuledi"
 date: 2010-06-25
 ---
 

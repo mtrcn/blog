@@ -1,5 +1,6 @@
 ---
 title: "Harita İş Günleri 2009 Notlarım"
+slug: "harita-is-gunleri-2009-notlarim"
 date: 2009-05-11
 ---
 

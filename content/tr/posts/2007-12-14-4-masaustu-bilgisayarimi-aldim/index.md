@@ -1,5 +1,6 @@
 ---
 title: "4. masaüstü bilgisayarımı aldım"
+slug: "4-masaustu-bilgisayarimi-aldim"
 date: 2007-12-14
 ---
 

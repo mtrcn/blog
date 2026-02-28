@@ -1,5 +1,6 @@
 ---
 title: "Değişmeyen Başlangıç Sayfasına Çözüm"
+slug: "degismeyen-baslangic-sayfasina-cozum"
 date: 2007-04-14
 ---
 

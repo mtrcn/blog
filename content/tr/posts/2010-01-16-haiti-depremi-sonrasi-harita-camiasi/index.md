@@ -1,5 +1,6 @@
 ---
 title: "Haiti Depremi Sonrası Harita Camiası"
+slug: "haiti-depremi-sonrasi-harita-camiasi"
 date: 2010-01-16
 ---
 

@@ -1,5 +1,6 @@
 ---
 title: "Artık SIM kartınız varsa kaybolmak yok"
+slug: "artik-sim-kartiniz-varsa-kaybolmak-yok"
 date: 2007-07-03
 ---
 

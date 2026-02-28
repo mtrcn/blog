@@ -1,5 +1,6 @@
 ---
 title: "EGoS'tan Teşekkürname"
+slug: "egostan-tesekkurname"
 date: 2008-07-13
 ---
 

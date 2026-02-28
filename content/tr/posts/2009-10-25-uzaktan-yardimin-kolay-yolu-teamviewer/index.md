@@ -1,5 +1,6 @@
 ---
 title: "Uzaktan Yardımın Kolay Yolu: TeamViewer"
+slug: "uzaktan-yardimin-kolay-yolu-teamviewer"
 date: 2009-10-25
 ---
 

@@ -1,5 +1,6 @@
 ---
 title: "Bilgisayarımda Olmazsa Olmazlar"
+slug: "bilgisayarimda-olmazsa-olmazlar"
 date: 2008-11-12
 ---
 

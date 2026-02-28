@@ -1,5 +1,6 @@
 ---
 title: "Kafadan iki rakamlı sayının karesini alın"
+slug: "kafadan-iki-rakamli-sayinin-karesini-alin"
 date: 2007-11-12
 ---
 

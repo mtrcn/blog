@@ -1,5 +1,6 @@
 ---
 title: "Earthscape artık yüklenebilir"
+slug: "earthscape-artik-yuklenebilir"
 date: 2008-09-29
 ---
 

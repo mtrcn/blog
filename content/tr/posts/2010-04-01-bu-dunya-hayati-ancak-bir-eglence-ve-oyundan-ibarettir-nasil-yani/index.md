@@ -1,5 +1,6 @@
 ---
 title: "\"Bu dünya hayatı ancak bir eğlence ve oyundan ibarettir.\" Nasıl yani?"
+slug: "bu-dunya-hayati-ancak-bir-eglence-ve-oyundan-ibarettir-nasil-yani"
 date: 2010-04-01
 ---
 

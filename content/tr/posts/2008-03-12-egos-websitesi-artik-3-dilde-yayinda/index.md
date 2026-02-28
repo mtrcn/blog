@@ -1,5 +1,6 @@
 ---
 title: "EGoS websitesi artık üç dilde"
+slug: "egos-websitesi-artik-3-dilde-yayinda"
 date: 2008-03-12
 ---
 

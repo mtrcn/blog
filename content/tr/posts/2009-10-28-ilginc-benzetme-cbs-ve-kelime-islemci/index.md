@@ -1,5 +1,6 @@
 ---
 title: "İlginç Benzetme: CBS ve Kelime İşlemci"
+slug: "ilginc-benzetme-cbs-ve-kelime-islemci"
 date: 2009-10-28
 ---
 

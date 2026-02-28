@@ -1,5 +1,6 @@
 ---
 title: "Avrupa Standartlarında Cv Hazırlamak"
+slug: "avrupa-standartlarinda-cv-hazirlamak"
 date: 2007-09-17
 ---
 

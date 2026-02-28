@@ -1,5 +1,6 @@
 ---
 title: "CBS Günü (GIS Day) 2009 için Hazırlıklar Başladı"
+slug: "cbs-gunu-gis-day-2009-icin-hazirliklar-basladi"
 date: 2009-04-13
 ---
 

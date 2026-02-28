@@ -1,5 +1,6 @@
 ---
 title: "ISPRS'ten Süpriz Takdirname"
+slug: "isprsten-supriz-takdirname"
 date: 2008-09-12
 ---
 

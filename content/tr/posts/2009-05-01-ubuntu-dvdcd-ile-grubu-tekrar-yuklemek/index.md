@@ -1,5 +1,6 @@
 ---
 title: "Ubuntu DVD/CD ile Grub'u tekrar yüklemek"
+slug: "ubuntu-dvdcd-ile-grubu-tekrar-yuklemek"
 date: 2009-05-01
 ---
 

@@ -1,5 +1,6 @@
 ---
 title: "DirectX 10 ile gerçekcilik"
+slug: "directx-10-ile-gercekcilik"
 date: 2007-04-06
 ---
 

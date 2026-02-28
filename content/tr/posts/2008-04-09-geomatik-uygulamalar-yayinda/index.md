@@ -1,5 +1,6 @@
 ---
 title: "Geomatik Uygulamalar yayında"
+slug: "geomatik-uygulamalar-yayinda"
 date: 2008-04-09
 ---
 

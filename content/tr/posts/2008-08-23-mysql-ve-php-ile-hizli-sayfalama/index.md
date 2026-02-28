@@ -1,5 +1,6 @@
 ---
 title: "MySQL ve PHP ile hızlı sayfalama"
+slug: "mysql-ve-php-ile-hizli-sayfalama"
 date: 2008-08-23
 ---
 

@@ -1,5 +1,6 @@
 ---
 title: "Guernica ile Picasso'yu Keşfetmek"
+slug: "guernica_picasso"
 date: 2008-06-11
 ---
 

@@ -1,5 +1,6 @@
 ---
 title: "CeBIT 2008 Notları"
+slug: "cebit-2008-notlari"
 date: 2008-10-11
 ---
 

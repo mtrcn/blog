@@ -1,5 +1,6 @@
 ---
 title: "Eski Bilgisayarınıza Deli Linux"
+slug: "eski-bilgisayariniza-deli-linux"
 date: 2007-06-21
 ---
 

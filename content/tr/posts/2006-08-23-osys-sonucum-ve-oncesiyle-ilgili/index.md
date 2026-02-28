@@ -1,5 +1,6 @@
 ---
 title: "ÖSYS Sonucum ve öncesiyle ilgili"
+slug: "osys-sonucum-ve-oncesiyle-ilgili"
 date: 2006-08-23
 ---
 

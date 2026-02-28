@@ -1,5 +1,6 @@
 ---
 title: "Erkek ve kadın karşı cinsi nasıl seçiyor?"
+slug: "erkek-ve-kadin-karsi-cinsi-nasil-seciyor"
 date: 2008-11-02
 ---
 

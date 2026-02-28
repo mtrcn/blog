@@ -1,5 +1,6 @@
 ---
 title: "Google Maps'te Yükseklik Bilgisi Öğrenme"
+slug: "google-mapste-yukseklik-bilgisi-ogrenme"
 date: 2009-04-04
 ---
 

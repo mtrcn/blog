@@ -1,5 +1,6 @@
 ---
 title: "Google’dan Ücretsiz Navigasyon Programı mı?"
+slug: "googledan-ucretsiz-navigasyon-programi-mi"
 date: 2009-10-25
 ---
 

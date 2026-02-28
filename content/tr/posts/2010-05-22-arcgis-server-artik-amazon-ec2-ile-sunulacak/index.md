@@ -1,5 +1,6 @@
 ---
 title: "ArcGIS Server artık Amazon EC2 ile sunulacak"
+slug: "arcgis-server-artik-amazon-ec2-ile-sunulacak"
 date: 2010-05-22
 ---
 

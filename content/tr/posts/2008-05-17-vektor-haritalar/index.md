@@ -1,5 +1,6 @@
 ---
 title: "Vektör Haritalar"
+slug: "vektor-haritalar"
 date: 2008-05-17
 ---
 

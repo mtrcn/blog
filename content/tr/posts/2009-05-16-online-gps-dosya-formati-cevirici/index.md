@@ -1,5 +1,6 @@
 ---
 title: "Online GPS Dosya Formatı Çevirici"
+slug: "online-gps-dosya-formati-cevirici"
 date: 2009-05-16
 ---
 

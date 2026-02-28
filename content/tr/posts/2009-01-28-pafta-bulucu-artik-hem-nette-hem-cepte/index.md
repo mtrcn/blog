@@ -1,5 +1,6 @@
 ---
 title: "Pafta Bulucu artık hem nette hem cepte"
+slug: "pafta-bulucu-artik-hem-nette-hem-cepte"
 date: 2009-01-28
 ---
 

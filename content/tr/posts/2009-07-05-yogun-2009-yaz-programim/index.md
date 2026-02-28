@@ -1,5 +1,6 @@
 ---
 title: "Yoğun 2009 Yaz Programım"
+slug: "yogun-2009-yaz-programim"
 date: 2009-07-05
 ---
 

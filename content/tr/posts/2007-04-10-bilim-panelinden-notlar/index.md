@@ -1,5 +1,6 @@
 ---
 title: "Bilim Paneli Notlarım"
+slug: "bilim-panelinden-notlar"
 date: 2007-04-10
 ---
 

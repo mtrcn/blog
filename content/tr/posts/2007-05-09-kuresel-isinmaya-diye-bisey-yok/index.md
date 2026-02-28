@@ -1,5 +1,6 @@
 ---
 title: "Küresel Isınmaya diye bişey yok!"
+slug: "kuresel-isinmaya-diye-bisey-yok"
 date: 2007-05-09
 ---
 

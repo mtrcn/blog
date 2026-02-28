@@ -1,5 +1,6 @@
 ---
 title: "USB'den Linux İşletim Sistemi Kurmak"
+slug: "usbden-isletim-sistemi-kurmak"
 date: 2008-10-04
 ---
 

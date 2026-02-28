@@ -1,5 +1,6 @@
 ---
 title: "Toplu Taşımada Navigasyonun Geleceği"
+slug: "toplu-tasimada-navigasyon-gelecegi"
 date: 2009-01-01
 ---
 

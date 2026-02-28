@@ -1,5 +1,6 @@
 ---
 title: "Hoax yani Asılsız e-Postalar"
+slug: "hoax-yani-kandirmaca-e-postalar"
 date: 2007-09-12
 ---
 

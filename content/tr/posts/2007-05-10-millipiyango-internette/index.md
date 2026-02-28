@@ -1,5 +1,6 @@
 ---
 title: "Piyango İnternette"
+slug: "millipiyango-internette"
 date: 2007-05-10
 ---
 

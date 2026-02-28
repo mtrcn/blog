@@ -1,5 +1,6 @@
 ---
 title: "PHP'de 6 Pratik Regular Expression(Düzenli İfade)"
+slug: "phpde-6-pratik-regular-expressionduzenli-ifade"
 date: 2009-03-09
 ---
 

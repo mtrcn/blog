@@ -1,5 +1,6 @@
 ---
 title: "Apache 2.2 ile Tomcat 6 üzerine mod_jk kurulumu"
+slug: "apache-2-2-ile-tomcat-6-uzerine-mod_jk-kurulumu"
 date: 2010-08-18
 ---
 

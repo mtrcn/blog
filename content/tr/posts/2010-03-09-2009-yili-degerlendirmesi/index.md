@@ -1,5 +1,6 @@
 ---
 title: "2009 Yılı Değerlendirmesi"
+slug: "2009-yili-degerlendirmesi"
 date: 2010-03-09
 ---
 

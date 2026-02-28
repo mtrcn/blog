@@ -1,5 +1,6 @@
 ---
 title: "Google Maps'te Koordinat Bilgisi Öğrenmek"
+slug: "google-mapte-koordinat-bilgisi"
 date: 2008-05-30
 ---
 

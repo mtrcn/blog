@@ -1,5 +1,6 @@
 ---
 title: "2008'in Son Günlerinden Notlar"
+slug: "2008in-son-gunlerinden-notlar"
 date: 2009-01-01
 ---
 

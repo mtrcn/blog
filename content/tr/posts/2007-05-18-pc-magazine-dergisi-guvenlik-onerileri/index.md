@@ -1,5 +1,6 @@
 ---
 title: "PC Magazine dergisi güvenlik önerileri"
+slug: "pc-magazine-dergisi-guvenlik-onerileri"
 date: 2007-05-18
 ---
 

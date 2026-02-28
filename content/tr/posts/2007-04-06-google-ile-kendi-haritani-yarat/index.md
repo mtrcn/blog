@@ -1,5 +1,6 @@
 ---
 title: "Google ile kendi haritanı yarat"
+slug: "google-ile-kendi-haritani-yarat"
 date: 2007-04-06
 ---
 

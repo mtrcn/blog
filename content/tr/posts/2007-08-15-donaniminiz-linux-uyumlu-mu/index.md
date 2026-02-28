@@ -1,5 +1,6 @@
 ---
 title: "Donanımınız Linux uyumlu mu?"
+slug: "donaniminiz-linux-uyumlu-mu"
 date: 2007-08-15
 ---
 

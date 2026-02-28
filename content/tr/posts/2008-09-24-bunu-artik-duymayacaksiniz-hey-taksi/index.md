@@ -1,5 +1,6 @@
 ---
 title: "Bunu artık duymayacaksınız: \"Hey Taksi!\""
+slug: "bunu-artik-duymayacaksiniz-hey-taksi"
 date: 2008-09-24
 ---
 

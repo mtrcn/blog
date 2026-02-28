@@ -1,5 +1,6 @@
 ---
 title: "Google Maps 2008 Notları"
+slug: "google-maps-2008-notlari"
 date: 2008-12-11
 ---
 

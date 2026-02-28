@@ -1,5 +1,6 @@
 ---
 title: "Güzel sözmüş"
+slug: "guzel-sozmus"
 date: 2007-05-02
 ---
 

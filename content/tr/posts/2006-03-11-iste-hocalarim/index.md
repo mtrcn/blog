@@ -1,5 +1,6 @@
 ---
 title: "İşte Hocalarım"
+slug: "iste-hocalarim"
 date: 2006-03-11
 ---
 

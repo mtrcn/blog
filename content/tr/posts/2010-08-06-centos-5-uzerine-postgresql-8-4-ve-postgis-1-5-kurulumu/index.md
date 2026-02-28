@@ -1,5 +1,6 @@
 ---
 title: "CentOS 5 üzerine PostgreSQL 8.4 ve PostGIS 1.5 kurulumu"
+slug: "centos-5-uzerine-postgresql-8-4-ve-postgis-1-5-kurulumu"
 date: 2010-08-06
 ---
 

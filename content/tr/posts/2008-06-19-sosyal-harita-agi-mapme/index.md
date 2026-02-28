@@ -1,5 +1,6 @@
 ---
 title: "Sosyal Harita Ağı: MapMe"
+slug: "sosyal-harita-agi-mapme"
 date: 2008-06-19
 ---
 

@@ -1,5 +1,6 @@
 ---
 title: "ISPRS-SC Members Area Yayında"
+slug: "isprs-sc-members-area-yayinda"
 date: 2008-06-19
 ---
 

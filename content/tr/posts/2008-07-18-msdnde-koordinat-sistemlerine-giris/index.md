@@ -1,5 +1,6 @@
 ---
 title: "MSDN'de Koordinat Sistemlerine Giriş"
+slug: "msdnde-koordinat-sistemlerine-giris"
 date: 2008-07-18
 ---
 

@@ -1,5 +1,6 @@
 ---
 title: "Yazım HKMO İstanbul Bülteni'nde Çıktı"
+slug: "yazim-hkmo-istanbul-bulteninde-cikti"
 date: 2008-09-06
 ---
 

@@ -1,5 +1,6 @@
 ---
 title: "Geomatik Mühendisliği nedir?"
+slug: "geomatik-muhendisligi-nedir"
 date: 2008-05-04
 ---
 

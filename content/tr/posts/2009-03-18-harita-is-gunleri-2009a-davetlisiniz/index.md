@@ -1,5 +1,6 @@
 ---
 title: "Harita İş Günleri 2009'a davetlisiniz!"
+slug: "harita-is-gunleri-2009a-davetlisiniz"
 date: 2009-03-18
 ---
 

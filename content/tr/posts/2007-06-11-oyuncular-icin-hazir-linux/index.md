@@ -1,5 +1,6 @@
 ---
 title: "Oyuncular için hazır linux"
+slug: "oyuncular-icin-hazir-linux"
 date: 2007-06-11
 ---
 

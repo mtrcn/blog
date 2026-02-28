@@ -1,5 +1,6 @@
 ---
 title: "Tahran Haritası İçin Open Street Map’e Bak"
+slug: "tahran-haritasi-icin-open-street-mape-bak"
 date: 2009-06-18
 ---
 

@@ -1,5 +1,6 @@
 ---
 title: "EGoS Türkiye toplantısı ardından"
+slug: "egos-turkiye-toplantisi-ardindan"
 date: 2007-11-28
 ---
 

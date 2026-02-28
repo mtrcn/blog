@@ -1,5 +1,6 @@
 ---
 title: "Günde bir elmanın doktorları uzak tutmasının 9 nedeni"
+slug: "gunde-bir-elmanin-doktorlari-uzak-tutmasinin-9-nedeni"
 date: 2007-08-05
 ---
 

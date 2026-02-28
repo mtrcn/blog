@@ -1,5 +1,6 @@
 ---
 title: "Yağlı Güreşçi Hakan Street Fighter’da"
+slug: "yagli-guresci-hakan-street-fighterda"
 date: 2010-03-10
 ---
 

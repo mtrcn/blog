@@ -1,5 +1,6 @@
 ---
 title: "Öss sonuçları açıklandı"
+slug: "oss-sonuclari-aciklandi"
 date: 2006-07-24
 ---
 

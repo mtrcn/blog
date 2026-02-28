@@ -1,5 +1,6 @@
 ---
 title: "Müzik Sektöründe Coğrafi Bilgi Sistemleri"
+slug: "lidar-radiohead"
 date: 2008-08-03
 ---
 

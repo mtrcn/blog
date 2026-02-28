@@ -1,5 +1,6 @@
 ---
 title: "Dedikodular doğru çıktı işte Google Maps Navigation!"
+slug: "dedikodular-dogru-cikti-iste-google-maps-navigation"
 date: 2009-11-04
 ---
 

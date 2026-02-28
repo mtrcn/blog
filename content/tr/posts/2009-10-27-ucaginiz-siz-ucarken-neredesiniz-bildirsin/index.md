@@ -1,5 +1,6 @@
 ---
 title: "Uçağınız Uçarken Neredesiniz Bildirsin"
+slug: "ucaginiz-siz-ucarken-neredesiniz-bildirsin"
 date: 2009-10-27
 ---
 

@@ -1,5 +1,6 @@
 ---
 title: "ISPRS-SC'de Üye Haritası"
+slug: "isprs-scde-uye-haritasi"
 date: 2008-09-11
 ---
 

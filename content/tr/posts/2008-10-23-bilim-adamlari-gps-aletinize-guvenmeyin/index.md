@@ -1,5 +1,6 @@
 ---
 title: "Bilim adamları: \"GPS aletinize güvenmeyin\""
+slug: "bilim-adamlari-gps-aletinize-guvenmeyin"
 date: 2008-10-23
 ---
 

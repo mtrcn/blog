@@ -41,11 +41,11 @@ disableHugoGeneratorInject = false
       
 #   [services.disqus]
 #     shortname = 'your-disqus-shortname'
-#   [services.googleAnalytics]
-#     ID = 'G-MEASUREMENT_ID'
+[services.googleAnalytics]
+  ID = 'G-QHNPW65ZDE'
 
 [permalinks]
-  posts = "/:year/:month/:day/:title/"
+  posts = "/:year/:month/:day/:slugorfilename/"
 
 [blackfriday]
   hrefTargetBlank = true
@@ -249,7 +249,7 @@ defaultContentLanguageInSubdir = true
   [languages.en.params]
     subtitle  = "Mete's Blog"
   [languages.en.permalinks]
-    posts = "/:year/:month/:day/:title/"
+    posts = "/:year/:month/:day/:slugorfilename/"
 
   [languages.tr]
     languageName = 'Türkçe'
@@ -259,7 +259,7 @@ defaultContentLanguageInSubdir = true
   [languages.tr.params]
     subtitle  = "Mete'nin Günlüğü"
   [languages.tr.permalinks]
-    posts = "/:year/:month/:day/:title/"
+    posts = "/:year/:month/:day/:slugorfilename/"
 
 [menu]
   [[menu.main]]

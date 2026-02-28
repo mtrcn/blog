@@ -1,5 +1,6 @@
 ---
 title: "Symbian S60v3 işletim sistemini hızlandırmak"
+slug: "symbian-s60v3-isletim-sistemini-hizlandirmak"
 date: 2007-12-30
 ---
 

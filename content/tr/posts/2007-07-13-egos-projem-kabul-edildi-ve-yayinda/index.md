@@ -1,5 +1,6 @@
 ---
 title: "EGoS projem kabul edildi ve yayında"
+slug: "egos-projem-kabul-edildi-ve-yayinda"
 date: 2007-07-13
 ---
 

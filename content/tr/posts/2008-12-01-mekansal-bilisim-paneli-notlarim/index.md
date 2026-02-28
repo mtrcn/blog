@@ -1,5 +1,6 @@
 ---
 title: "Mekansal Bilişim Paneli Notlarım"
+slug: "mekansal-bilisim-paneli-notlarim"
 date: 2008-12-01
 ---
 

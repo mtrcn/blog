@@ -1,5 +1,6 @@
 ---
 title: "Navigasyon cihazları basılı yol haritalarını tarihe gömemedi"
+slug: "navigasyon-cihazlari-basili-yol-haritalarini-tarihe-gomemedi"
 date: 2009-01-04
 ---
 

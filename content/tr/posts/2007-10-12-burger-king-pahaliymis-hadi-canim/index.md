@@ -1,5 +1,6 @@
 ---
 title: "Burger King pahalıymış, hadi canım!"
+slug: "burger-king-pahaliymis-hadi-canim"
 date: 2007-10-12
 ---
 

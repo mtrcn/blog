@@ -1,5 +1,6 @@
 ---
 title: "COMPEX 06 ve İlk Windows Vista İzlenimler"
+slug: "compex-06-ve-ilk-windows-vista-izlenimler"
 date: 2006-12-14
 ---
 

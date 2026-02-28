@@ -1,5 +1,6 @@
 ---
 title: "GClientGeocoder sınıfı ile adres bulma"
+slug: "gclientgeocoder-sinifi-ile-adres-bulma"
 date: 2008-10-23
 ---
 

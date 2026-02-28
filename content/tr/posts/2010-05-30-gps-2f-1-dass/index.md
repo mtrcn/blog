@@ -1,5 +1,6 @@
 ---
 title: "GPS 2F-1 Uydusu Göreve Hazır"
+slug: "gps-2f-1-dass"
 date: 2010-05-30
 ---
 

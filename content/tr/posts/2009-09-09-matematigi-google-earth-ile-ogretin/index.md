@@ -1,5 +1,6 @@
 ---
 title: "Matematiği Google Earth ile Öğretin"
+slug: "matematigi-google-earth-ile-ogretin"
 date: 2009-09-09
 ---
 

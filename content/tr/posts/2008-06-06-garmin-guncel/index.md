@@ -1,5 +1,6 @@
 ---
 title: "Garmin Güncel Haritalar İnternette"
+slug: "garmin-guncel"
 date: 2008-06-06
 ---
 

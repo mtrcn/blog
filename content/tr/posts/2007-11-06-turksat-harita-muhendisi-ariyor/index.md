@@ -1,5 +1,6 @@
 ---
 title: "TürkSAT harita mühendisi arıyor"
+slug: "turksat-harita-muhendisi-ariyor"
 date: 2007-11-06
 ---
 
