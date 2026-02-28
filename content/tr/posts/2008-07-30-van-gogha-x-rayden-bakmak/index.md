@@ -1,5 +1,7 @@
 ---
+
 title: "Van Gogh'a X-ray'den bakmak"
+slug: "van-gogha-x-rayden-bakmak"
 date: 2008-07-30
 ---
 

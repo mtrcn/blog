@@ -1,5 +1,7 @@
 ---
+
 title: "2009 Merhaba Dedi"
+slug: "2009-merhaba-dedi"
 date: 2009-02-21
 ---
 

@@ -1,5 +1,7 @@
 ---
+
 title: "A new way to add GeoJSON content into QGIS as a layer"
+slug: "a-new-way-to-add-geojson-content-into-qgis-as-a-layer"
 date: 2023-01-01
 tags: 
   - "geojson"

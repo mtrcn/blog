@@ -1,5 +1,7 @@
 ---
+
 title: "My debloating experience with Poco F3"
+slug: "my-debloating-experience-with-poco-f3"
 date: 2021-08-07
 tags: 
   - "android"

@@ -1,5 +1,7 @@
 ---
+
 title: "USB'den Windows XP/Vista/7 Kurmak"
+slug: "usbden-windows-xpvista7-kurmak"
 date: 2009-08-15
 ---
 

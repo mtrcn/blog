@@ -1,5 +1,7 @@
 ---
+
 title: "Launching GeoDownloader.com: Simplifying OpenStreetMap Data Downloads"
+slug: "launching-geodownloader-com-simplifying-openstreetmap-data-downloads"
 date: 2025-01-02
 tags: 
   - "arcgis"

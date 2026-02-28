@@ -1,5 +1,7 @@
 ---
+
 title: "TUJK 2008 Web Sitesi"
+slug: "tujk-2008-web-sitesi"
 date: 2008-05-17
 ---
 

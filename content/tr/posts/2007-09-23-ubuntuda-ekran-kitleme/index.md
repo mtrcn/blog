@@ -1,5 +1,7 @@
 ---
+
 title: "Ubuntu&#8217;da Ekran Kitleme"
+slug: "ubuntuda-ekran-kitleme"
 date: 2007-09-23
 ---
 

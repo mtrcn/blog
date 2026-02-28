@@ -1,5 +1,7 @@
 ---
+
 title: "Augmented Reality(AR) nedir?"
+slug: "augmented-realityar-nedir"
 date: 2009-10-25
 ---
 

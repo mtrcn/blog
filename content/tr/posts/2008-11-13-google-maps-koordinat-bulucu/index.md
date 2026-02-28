@@ -1,5 +1,7 @@
 ---
+
 title: "Google Maps Koordinat Bulucu"
+slug: "google-maps-koordinat-bulucu"
 date: 2008-11-13
 ---
 

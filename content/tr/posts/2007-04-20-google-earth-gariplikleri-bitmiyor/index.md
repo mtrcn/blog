@@ -1,5 +1,7 @@
 ---
+
 title: "Google Earth gariplikleri bitmiyor"
+slug: "google-earth-gariplikleri-bitmiyor"
 date: 2007-04-20
 ---
 

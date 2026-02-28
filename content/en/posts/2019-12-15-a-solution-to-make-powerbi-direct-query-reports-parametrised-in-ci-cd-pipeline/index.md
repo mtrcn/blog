@@ -1,5 +1,7 @@
 ---
+
 title: "A solution to make PowerBI Direct Query Reports parametrised in CI/CD pipeline"
+slug: "a-solution-to-make-powerbi-direct-query-reports-parametrised-in-ci-cd-pipeline"
 date: 2019-12-15
 tags: 
   - "cicd"

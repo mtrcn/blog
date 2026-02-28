@@ -1,5 +1,7 @@
 ---
+
 title: "ESRI, CBS Deneyimlerinizi Bekliyor"
+slug: "esri-cbs-deneyimlerinizi-bekliyor"
 date: 2009-08-29
 ---
 

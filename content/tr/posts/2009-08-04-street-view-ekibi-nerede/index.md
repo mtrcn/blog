@@ -1,5 +1,7 @@
 ---
+
 title: "Street View Ekibi Nerede?"
+slug: "street-view-ekibi-nerede"
 date: 2009-08-04
 ---
 

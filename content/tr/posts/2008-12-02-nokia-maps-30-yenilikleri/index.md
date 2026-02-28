@@ -1,5 +1,7 @@
 ---
+
 title: "Nokia Maps 3.0 Yenilikleri"
+slug: "nokia-maps-30-yenilikleri"
 date: 2008-12-02
 ---
 

@@ -1,5 +1,7 @@
 ---
+
 title: "EGoS projesi bitti, sonucunu bekliyorum"
+slug: "egos-projesi-bitti-sonucunu-bekliyorum"
 date: 2007-06-29
 ---
 

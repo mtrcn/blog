@@ -1,5 +1,7 @@
 ---
+
 title: "Pafta Bulucu GencHaritaci.Net&#8217;de"
+slug: "pafta-bulucu-genchartitacinetde"
 date: 2007-09-15
 ---
 

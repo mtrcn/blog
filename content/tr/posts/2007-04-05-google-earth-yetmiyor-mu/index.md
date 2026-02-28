@@ -1,5 +1,7 @@
 ---
+
 title: "Google Earth yetmiyor mu?"
+slug: "google-earth-yetmiyor-mu"
 date: 2007-04-05
 ---
 

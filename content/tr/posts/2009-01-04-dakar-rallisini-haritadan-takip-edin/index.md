@@ -1,5 +1,7 @@
 ---
+
 title: "Dakar Rallisini Haritadan Takip Edin"
+slug: "dakar-rallisini-haritadan-takip-edin"
 date: 2009-01-04
 ---
 

@@ -1,5 +1,7 @@
 ---
+
 title: "Ord. Prof. Dr. Sadi Irmak diyor ki"
+slug: "ord-prof-dr-sadi-irmak-diyor-ki"
 date: 2009-10-04
 ---
 

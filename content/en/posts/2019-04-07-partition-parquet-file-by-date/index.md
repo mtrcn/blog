@@ -1,5 +1,7 @@
 ---
+
 title: "Partition Parquet File by Date"
+slug: "partition-parquet-file-by-date"
 date: 2019-04-07
 tags: 
   - "dataengineering"

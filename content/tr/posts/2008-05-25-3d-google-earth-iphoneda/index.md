@@ -1,5 +1,7 @@
 ---
+
 title: "3D Google Earth iPhone'da"
+slug: "3d-google-earth-iphoneda"
 date: 2008-05-25
 ---
 

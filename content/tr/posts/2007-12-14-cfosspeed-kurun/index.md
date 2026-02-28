@@ -1,5 +1,7 @@
 ---
+
 title: "cFosSpeed Kurun"
+slug: "cfosspeed-kurun"
 date: 2007-12-14
 ---
 

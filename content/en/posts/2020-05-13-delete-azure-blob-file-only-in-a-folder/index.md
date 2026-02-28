@@ -1,5 +1,7 @@
 ---
+
 title: "Delete Azure Blob Files Only In a Folder"
+slug: "delete-azure-blob-file-only-in-a-folder"
 date: 2020-05-13
 tags: 
   - "azure"

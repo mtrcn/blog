@@ -1,5 +1,7 @@
 ---
+
 title: "Map Of The World As We Know It"
+slug: "map-of-the-world-as-we-know-it"
 date: 2008-12-03
 ---
 

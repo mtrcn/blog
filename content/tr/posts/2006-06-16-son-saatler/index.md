@@ -1,5 +1,7 @@
 ---
+
 title: "Son saatler"
+slug: "son-saatler"
 date: 2006-06-16
 ---
 

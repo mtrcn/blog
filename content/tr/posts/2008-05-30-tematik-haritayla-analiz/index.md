@@ -1,5 +1,7 @@
 ---
+
 title: "Tematik Haritayla Felaket Analizi"
+slug: "tematik-haritayla-analiz"
 date: 2008-05-30
 ---
 

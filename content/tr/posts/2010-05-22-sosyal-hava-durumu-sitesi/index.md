@@ -1,5 +1,7 @@
 ---
+
 title: "Sosyal Hava Durumu Sitesi"
+slug: "sosyal-hava-durumu-sitesi"
 date: 2010-05-22
 ---
 

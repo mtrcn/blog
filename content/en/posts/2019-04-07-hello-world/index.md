@@ -1,5 +1,7 @@
 ---
+
 title: "Export MS SQL tables to Parquet Files"
+slug: "hello-world"
 date: 2019-04-07
 tags: 
   - "dataengineering"

@@ -1,5 +1,7 @@
 ---
+
 title: "Gizli Aramalara Son"
+slug: "gizli-aranmalara-son"
 date: 2007-11-04
 ---
 

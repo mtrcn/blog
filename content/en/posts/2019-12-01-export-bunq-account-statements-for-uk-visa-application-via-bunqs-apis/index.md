@@ -1,5 +1,7 @@
 ---
+
 title: "Export Bunq account statements for UK visa application via Bunq's APIs"
+slug: "export-bunq-account-statements-for-uk-visa-application-via-bunqs-apis"
 date: 2019-12-01
 tags: 
   - "bunq"

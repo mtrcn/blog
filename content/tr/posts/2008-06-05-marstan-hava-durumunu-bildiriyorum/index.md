@@ -1,5 +1,7 @@
 ---
+
 title: "Mars'tan Hava Durumunu Bildiriyorum"
+slug: "marstan-hava-durumunu-bildiriyorum"
 date: 2008-06-05
 ---
 

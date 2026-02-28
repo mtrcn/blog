@@ -1,5 +1,7 @@
 ---
+
 title: "OGC'den yeni bir standart: GeoSMS"
+slug: "ogcden-yeni-bir-standart-geosms"
 date: 2010-05-22
 ---
 

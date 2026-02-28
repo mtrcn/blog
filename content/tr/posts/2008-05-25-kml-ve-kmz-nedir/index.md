@@ -1,5 +1,7 @@
 ---
+
 title: "KML ve KMZ nedir?"
+slug: "kml-ve-kmz-nedir"
 date: 2008-05-25
 ---
 

@@ -1,5 +1,7 @@
 ---
+
 title: "Harita > Jeodezi ve Fotogrametri > Geomatik > ?"
+slug: "harita-jeodezi-ve-fotogrametri-geomatik"
 date: 2008-02-23
 ---
 

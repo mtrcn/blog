@@ -1,5 +1,7 @@
 ---
+
 title: "The European Group of Surveyors"
+slug: "the-european-group-of-surveyors"
 date: 2007-04-05
 ---
 

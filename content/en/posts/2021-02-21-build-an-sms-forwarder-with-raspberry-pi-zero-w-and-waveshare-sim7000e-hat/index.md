@@ -1,5 +1,7 @@
 ---
+
 title: "Build an SMS Forwarder with Raspberry PI Zero W and Waveshare SIM7000E hat"
+slug: "build-an-sms-forwarder-with-raspberry-pi-zero-w-and-waveshare-sim7000e-hat"
 date: 2021-02-21
 tags: 
   - "python"
